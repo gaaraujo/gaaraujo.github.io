@@ -97,7 +97,7 @@ git submodule add https://git.overleaf.com/6440339541540a8edd971bfa cv-source
 .\scripts\sync-cv.ps1
 ```
 
-Requires **Git** and a LaTeX install with `latexmk` (TeX Live or MiKTeX).
+Requires **Git** and a LaTeX install with `latexmk` (TeX Live or MiKTeX). The `cv-source/` submodule is for local editing only; GitHub Actions does not clone it (the built PDF in `assets/cv/cv.pdf` is committed instead).
 
 ### Update workflow
 
