@@ -1,0 +1,49 @@
+---
+title: "NHERI Converging Design — Six-Story Shake-Table Test"
+image: ../../assets/images/about/ucsd-six-story-team-1-2024.jpg
+categories: [mass-timber, experimental, nheri]
+description: "Phase II shake-table testing of a six-story mass timber building at UC San Diego as part of the NHERI Converging Design project."
+status: Completed
+---
+
+## Overview
+
+Phase II experimental testing of a **six-story mass timber building** at the [NHERI@UC San Diego Large High Performance Outdoor Shake Table](https://nheri.ucsd.edu/facility/lhpost), completed in January 2024. The work is part of the [NHERI Converging Design](https://tallwoodinstitute.org/converging-design-partners/) project—a collaboration among investigators at Oregon State, Stanford, Colorado State, and Penn State, supported by NSF, USDA ARS, the TallWood Design Institute, and industry partners.
+
+## Lateral system
+
+The lateral system combined:
+
+1. **Post-tensioned mass ply panel (MPP) rocking walls** with buckling-restrained boundary elements (BRBs) on the first-story east and west walls
+2. **Post-tensioned CLT rocking walls** with u-shaped flexural plate (UFP) energy dissipators across all six stories
+
+The mass timber wall panels showed no notable damage; the BRBs and UFPs yielded with minimal localized damage as intended. The building re-centered without residual drift during Design- and MCER-level shaking.
+
+## Shake-table videos
+
+Recordings from January 19, 2024:
+
+```{=html}
+<div class="content-video">
+<video controls preload="metadata" playsinline>
+  <source src="/assets/videos/projects/ucsd-six-story-shake-overview-2024.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="/assets/videos/projects/ucsd-six-story-shake-overview-2024.mp4">Download the clip</a>.
+</video>
+<p>Aerial views during MCER-level shaking — 2010 Ferndale earthquake (MCER) and 1994 Northridge earthquake at 1.1× MCER.</p>
+</div>
+```
+
+```{=html}
+<div class="content-video">
+<video controls preload="metadata" playsinline>
+  <source src="/assets/videos/projects/ucsd-six-story-interior-shake-2024.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="/assets/videos/projects/ucsd-six-story-interior-shake-2024.mp4">Download the clip</a>.
+</video>
+<p>Ground-level view inside the building of MPP rocking walls and BRBs during the 1994 Northridge earthquake at 1.1× MCER.</p>
+</div>
+```
+
+## Related links
+
+- [Research themes](/research.qmd)
+- [Publications](/publications.qmd)

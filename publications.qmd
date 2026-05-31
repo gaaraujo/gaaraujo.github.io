@@ -1,0 +1,45 @@
+---
+title: "Publications"
+---
+
+A selection of peer-reviewed journal articles and conference papers. For citation metrics and a complete list, see my [Google Scholar profile](https://scholar.google.com/citations?user=rrMcW-UAAAAJ).
+
+## Journal Articles
+
+### 2025
+
+**Araújo R., G. A.**, B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). [Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-13781) *Journal of Structural Engineering*, 151(7), 04025089.
+
+### 2019
+
+Arteta, C. A., **G. A. Araújo**, A. M. Torregroza, A. F. Martínez, and Y. Lu (2019). [Hybrid Approach for Simulating Shear–Flexure Interaction in RC Walls with Nonlinear Truss and Fiber Models.](https://doi.org/10.1007/s10518-019-00681-6) *Bulletin of Earthquake Engineering*, 17(12), 6437–6462.
+
+Arteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, **G. Araújo**, A. M. Torregroza, R. Bonett, C. Blandón, L. R. Fernández-Sola, J. F. Correal, and K. M. Mosalam (2019). [Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake.](https://doi.org/10.1193/061218EQS144M) *Earthquake Spectra*, 35(4), 1763–1793.
+
+## Conference Papers & Reports
+
+Pieroni, L., **G. Araújo**, B. Simpson, F. Freddi, P. Mishra, P. Uarac, A. Barbosa, et al. (2024). Estimating First and Higher-Mode Effects for the Design of Rocking Mass Timber Walls with Controlled Overturning Moments. *18th World Conference on Earthquake Engineering (18WCEE)*.
+
+**Araújo, G. A.**, B. Simpson, M. Zhu, and M. Scott (2024). Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing. *18th World Conference on Earthquake Engineering (18WCEE)*.
+
+Kontra, S., A. R. Barbosa, A. Sinha, **G. A. Araújo R.**, P. Uarac, N. Brown, et al. (2023). Design and Cradle-to-Grave Life-Cycle Assessment: Full-Scale Six-Story Shake-Table Test Building Lateral Systems. *13th World Conference on Timber Engineering (WCTE)*.
+
+Ho, T. X., P. Uarac, A. R. Barbosa, A. Sinha, B. Simpson, **G. A. Araújo R.**, et al. (2023). Evaluation of Seismic Performance Factors and Fragility Functions for Post-Tensioned Mass Ply Panel Rocking Walls. *World Conference on Timber Engineering (WCTE)*.
+
+**Araújo R., G. A.**, B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2023). Cyclic Testing and Numerical Modeling of a Three-Story Mass-Timber Building with a Pivoting Mass Ply Panel Spine and Buckling-Restrained Energy Dissipators. *World Conference on Timber Engineering (WCTE)*.
+
+**Araújo R., G. A.**, B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Numerical Modelling of a Three-Story Building Using a Hybrid of Mass Timber Walls with Buckling-Restrained Braces. *International Conference on the Behaviour of Steel Structures in Seismic Areas (STESSA)*.
+
+**Araújo R., G. A.**, B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Design of a Three-Story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces. *12th National Conference on Earthquake Engineering (12NCEE)*.
+
+**Araújo, G. A.**, C. A. Arteta, and C. A. Blandón (2019). Evaluación de la respuesta sísmica de sistemas de muros delgados de concreto reforzado en zonas de amenaza sísmica alta en Colombia. *IX Congreso Nacional de Ingeniería Sísmica*.
+
+## Theses & Dissertations
+
+**Araújo R., G. A.** (2022). *Design, Experimental Testing, and Numerical Analysis of a Three-Story Mass Timber Building with a Pivoting Spine and Buckling-Restrained Energy Dissipators.* MS Thesis, Oregon State University.
+
+**Araújo Rodríguez, G. A.** (2021). *Seismic Risk Assessment of the Thin and Lightly Reinforced Concrete Wall Building System.* MS Thesis, Universidad del Norte.
+
+## Reconnaissance Reports
+
+Mosalam, K. M., J. Archbold, J. Carrillo, **G. Araújo Rodríguez**, J. Angulo Anaya, et al. (2025). *StEER: M6.4 Paratebueno Earthquake Joint Reconnaissance Report (JRR).*

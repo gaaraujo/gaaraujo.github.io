@@ -1,0 +1,17 @@
+---
+title: "2025 EERI LFE Travel Study — Mexico: Lessons on Post-Earthquake Engineering Interventions on Cultural and Historic Buildings"
+date: 2025-09-19
+categories: [symposium, eeri]
+venue: "40th Mexico City Earthquake Anniversary Symposium, Mexico City, Mexico"
+description: "Presentation on post-earthquake engineering interventions on cultural and historic buildings in Mexico City."
+---
+
+## Event
+
+**40th Mexico City Earthquake Anniversary Symposium**  
+Mexico City, Mexico · September 19, 2025
+
+## Related links
+
+- [EERI LFE Travel Study recap](https://www.eeri.org/about-eeri/news/27694-lfe-travel-study-explores-mexico-s-40-year-journey-toward-earthquake-resilience)
+- [About](/about.qmd)

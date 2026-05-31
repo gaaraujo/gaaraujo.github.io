@@ -1,0 +1,28 @@
+---
+title: "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers"
+date: 2026-05-28
+categories: [conference, gpu, opensees]
+venue: "2026 NHERI Computational Symposium, Session 4A, UC Berkeley"
+description: "GPU-accelerated linear solvers in OpenSees using AmgX and cuDSS for higher-resolution nonlinear structural analysis."
+---
+
+## Event
+
+**[2026 NHERI Computational Symposium](https://simcenter.designsafe-ci.org/nheri-computational-symposium/2026/)**  
+Session 4A: Physics-Informed AI and Surrogate Modeling for Nonlinear Structural Systems  
+Hearst Memorial Mining Building #290 · Berkeley, CA · May 28, 2026 · 2:40 pm
+
+**Co-author:** Barbara G. Simpson (Stanford University)
+
+[Session 4A abstracts and presenter list](https://simcenter.designsafe-ci.org/nheri-computational-symposium/2026/agenda/session-abstracts/presenters-session-4a/)
+
+## Abstract
+
+Solving systems of linear equations is the foundation of many algorithms in nonlinear structural analysis. Although GPU-accelerated iterative solvers have demonstrated transformative speedups across various scientific computing applications, most structural engineering finite element frameworks continue to rely on legacy CPU-based direct solvers. This work extends the OpenSees framework with programming interfaces for two state-of-the-art GPU-accelerated linear solver libraries: AmgX (iterative methods) and cuDSS (direct methods). Both libraries include configurable solver settings that can be tailored to different structural models and GPU hardware, including preconditioners, convergence tolerances, single precision options, storage formats for iterative solvers, and factorization/reordering strategies for direct solvers. Performance is evaluated using a simply supported beam discretized with brick elements and a J2 plasticity constitutive law, subjected to static and dynamic analyses. Depending on model resolution, results show that speedups of up to an order of magnitude can be achieved without notable loss of accuracy when solver parameters are carefully selected. Trade-offs between iterative and direct solvers are assessed in terms of convergence behavior, memory usage, and sensitivity to ill-conditioning. Findings support the use of GPU-accelerated solvers and expand on the algorithms available to reduce computational costs and enable higher-fidelity simulations of nonlinear structural dynamic response.
+
+## Related links
+
+- [Research](/research.qmd)
+- [GPU-Accelerated OpenSees project](/projects/gpu-accelerated-opensees/index.qmd)
+- [2024 NHERI Computational Symposium talk](/talks/nheri-computational-symposium-2024/index.qmd)
+- [NHERI SimCenter](https://simcenter.designsafe-ci.org/)

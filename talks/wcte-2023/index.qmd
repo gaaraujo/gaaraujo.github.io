@@ -1,0 +1,17 @@
+---
+title: "Cyclic Testing and Numerical Modeling of a Three-Story Mass-Timber Building with a Pivoting Mass Ply Panel Spine and Buckling-Restrained Energy Dissipators"
+date: 2023-06-21
+categories: [conference, mass-timber]
+venue: "2023 World Conference on Timber Engineering, Oslo, Norway"
+description: "Cyclic testing and numerical modeling of a three-story mass-timber building with a pivoting MPP spine and BRBs."
+---
+
+## Event
+
+**2023 World Conference on Timber Engineering (WCTE)**  
+Oslo, Norway · June 21, 2023
+
+## Related links
+
+- [Research](/research.qmd)
+- [Publications](/publications.qmd)

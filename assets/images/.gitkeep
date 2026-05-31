@@ -1,0 +1,7 @@
+# Placeholder for images (profile photo, figures, favicon, etc.)
+#
+# Recommended files:
+#   profile.jpg              — headshot (Home and About)
+#   peer-intern-2017.jpg     — PEER summer interns photo (About)
+#   about/                   — event and research photos for About page
+#   favicon.png              — site favicon (uncomment in _quarto.yml)

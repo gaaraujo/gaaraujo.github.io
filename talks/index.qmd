@@ -1,0 +1,14 @@
+---
+title: "Talks"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  date-format: "MMMM D, YYYY"
+page-layout: full
+---
+
+Conference presentations, seminars, and invited talks. This list matches the Presentations section of my [CV](/cv.qmd).

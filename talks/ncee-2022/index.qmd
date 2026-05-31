@@ -1,0 +1,16 @@
+---
+title: "Design of a Three-story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces"
+date: 2022-06-29
+categories: [conference, mass-timber]
+venue: "12th National Conference on Earthquake Engineering, Salt Lake City, UT"
+description: "Design of a three-story building using mass ply panel walls with buckling-restrained braces."
+---
+
+## Event
+
+**12th National Conference on Earthquake Engineering (12NCEE)**  
+Salt Lake City, UT · June 29, 2022
+
+## Related links
+
+- [Research](/research.qmd)

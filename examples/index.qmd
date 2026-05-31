@@ -1,0 +1,13 @@
+---
+title: "Examples"
+listing:
+  contents: "*/index.qmd"
+  sort: "title asc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+---
+
+Runnable and reproducible code examples for OpenSeesPy, structural analysis workflows, and GPU-accelerated simulation.

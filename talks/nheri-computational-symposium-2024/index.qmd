@@ -1,0 +1,18 @@
+---
+title: "Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing"
+date: 2024-02-01
+categories: [conference, gpu, opensees]
+venue: "2024 NHERI Computational Symposium, Los Angeles, CA"
+description: "GPU computing for finite-element structural elastic dynamic analysis."
+---
+
+## Event
+
+**2024 NHERI Computational Symposium**  
+Los Angeles, CA · February 1, 2024
+
+## Related links
+
+- [2026 NHERI Computational Symposium talk](/talks/nheri-computational-symposium-2026/index.qmd)
+- [Research](/research.qmd)
+- [NHERI SimCenter](https://simcenter.designsafe-ci.org/)

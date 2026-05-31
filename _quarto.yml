@@ -1,0 +1,99 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "examples/**/*.qmd"
+    - "posts/**/*.qmd"
+    - "projects/**/*.qmd"
+    - "talks/**/*.qmd"
+  resources:
+    - assets/**
+  post-render: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-render.ps1
+
+website:
+  title: "Gustavo A. Araújo R."
+  site-url: https://gaaraujo.github.io
+  description: >
+    PhD researcher in structural and earthquake engineering at Stanford University.
+    Nonlinear finite-element analysis, OpenSees, GPU computing, and mass timber systems.
+  favicon: assets/images/favicon.png
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    background: light
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: projects/index.qmd
+        text: Projects
+      - href: examples/index.qmd
+        text: Examples
+      - href: posts/index.qmd
+        text: Posts
+      - href: publications.qmd
+        text: Publications
+      - href: talks/index.qmd
+        text: Talks
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/gaaraujo
+      - icon: linkedin
+        href: https://www.linkedin.com/in/araujorg/
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=rrMcW-UAAAAJ
+      - text: "{{< ai researchgate >}}"
+        href: https://www.researchgate.net/profile/Gustavo-Araujo-R
+        aria-label: ResearchGate
+
+  page-footer:
+    left: |
+      Gustavo A. Araújo R.
+    center: |
+      [GitHub](https://github.com/gaaraujo) ·
+      [Google Scholar](https://scholar.google.com/citations?user=rrMcW-UAAAAJ) ·
+      [ResearchGate](https://www.researchgate.net/profile/Gustavo-Araujo-R) ·
+      [ORCID](https://orcid.org/0000-0002-5543-8101) ·
+      [Stanford Profile](https://profiles.stanford.edu/gustavo-a-araujo)
+    right: ""
+
+  bread-crumbs: false
+
+format:
+  html:
+    theme:
+      light: [default, styles.scss]
+    grid:
+      body-width: 820px
+      sidebar-width: 270px
+      margin-width: 220px
+    toc: true
+    toc-location: left
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+
+editor: source

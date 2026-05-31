@@ -1,0 +1,34 @@
+[
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/nheri-computational-symposium-2026/index.html",
+      "/talks/eeri-lfe-mexico-2025/index.html",
+      "/talks/nheri-computational-symposium-2024/index.html",
+      "/talks/peer-annual-meeting-2023/index.html",
+      "/talks/wcte-2023/index.html",
+      "/talks/ncee-2022/index.html",
+      "/talks/stessa-2022/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/gpu-accelerated-opensees/index.html",
+      "/projects/nheri-converging-design-six-story/index.html",
+      "/projects/osu-three-story-pivoting-walls/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/2026-06-01-welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/examples/index.html",
+    "items": [
+      "/examples/opensees-spanish-workshops/index.html"
+    ]
+  }
+]

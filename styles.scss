@@ -1,0 +1,454 @@
+/*-- scss:defaults --*/
+
+// ============================================================
+//  DESIGN TOKENS
+// ============================================================
+
+// --- Brand -------------------------------------------------
+$accent:        #8c1515;
+$accent-dark:   #6f1010;
+
+// --- Ink ---------------------------------------------------
+$ink:           #1f2328;
+$ink-strong:    #14181c;
+$ink-muted:     #6b7280;
+$hairline:      #e6e8eb;
+
+// --- Surfaces ----------------------------------------------
+$surface:       #ffffff;
+
+// --- Typography (one family for everything except code) ----
+$font-sans:     "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif;
+$font-mono:     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+                Consolas, monospace;
+$font-size:     17px;
+$line-height:   1.65;
+
+// Map tokens to Bootstrap / Quarto variables
+$primary:                 $accent;
+$link-color:              $accent;
+$link-hover-color:        $accent-dark;
+$body-color:              $ink;
+$body-bg:                 $surface;
+$font-family-sans-serif:  $font-sans;
+$font-family-base:        $font-sans;
+$headings-font-family:    $font-sans;
+$font-family-serif:       $font-sans;   // prevent litera/default serif leakage
+$font-family-monospace:   $font-mono;
+$font-size-root:          $font-size;
+$headings-color:          $ink-strong;
+$headings-font-weight:    600;
+$line-height-base:        $line-height;
+$border-color:            $hairline;
+
+
+/*-- scss:rules --*/
+
+// ============================================================
+//  Global typography — one font, predictable sizes
+// ============================================================
+:root {
+  --bs-body-font-family: #{$font-sans};
+  --bs-font-sans-serif: #{$font-sans};
+}
+
+body {
+  font-family: $font-sans;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// Catch any theme rules that assign serif or alternate stacks
+p, li, td, th, dt, dd, blockquote, figcaption,
+.navbar, .nav-link, .navbar-title,
+.nav-footer, .page-footer,
+#TOC, .quarto-listing, .listing-item,
+.quarto-title, .quarto-title-block,
+.profile-intro, .about-header, .news-item {
+  font-family: $font-sans;
+}
+
+pre, code, kbd, samp, .sourceCode {
+  font-family: $font-mono;
+}
+
+::selection {
+  background: rgba($accent, 0.14);
+}
+
+a {
+  text-decoration: none;
+  text-underline-offset: 0.18em;
+  transition: color 0.12s ease;
+}
+
+main.content a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+// ============================================================
+//  Headings
+// ============================================================
+main.content {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-sans;
+    letter-spacing: 0;
+    line-height: 1.25;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2.25rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $hairline;
+  }
+
+  > section:first-of-type > h1:first-child,
+  > h1:first-child {
+    margin-top: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1.9rem 0 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  p { margin-bottom: 1rem; }
+}
+
+// ============================================================
+//  Navbar
+// ============================================================
+.navbar {
+  border-bottom: 1px solid $hairline;
+  box-shadow: none;
+}
+
+.navbar-title {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 1rem;
+  color: $ink !important;
+  transition: color 0.12s ease;
+
+  &:hover { color: $accent !important; }
+  &.active { color: $accent !important; font-weight: 600; }
+
+  .ai {
+    font-size: 1.05rem;
+    vertical-align: -0.1em;
+  }
+}
+
+// Inline content photos and videos (About, project pages)
+$content-media-max: 34rem;
+
+.content-photo,
+.content-photo-pair,
+.content-video {
+  margin: 1.5rem 0 2rem;
+  max-width: $content-media-max;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid $hairline;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: $ink-muted;
+    margin: 0.5rem 0 0;
+    line-height: 1.5;
+  }
+}
+
+// Related photo pairs — stacked at full width to match single photos
+.content-photo-pair {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  p:has(img) {
+    margin: 0;
+  }
+
+  p:not(:has(img)) {
+    margin-top: 0.15rem;
+  }
+}
+
+.content-video {
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid $hairline;
+    background: #111;
+  }
+}
+
+// Research theme blocks (text + thumbnail)
+.research-theme {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  gap: 1rem 1.5rem;
+  align-items: start;
+  margin: 0.35rem 0 1.75rem;
+
+  .research-theme-body {
+    min-width: 0;
+
+    > :last-child { margin-bottom: 0; }
+  }
+
+  .research-theme-photo {
+    max-width: 15rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid $hairline;
+      margin: 0;
+      object-fit: contain;
+      background: #f8f9fa;
+      padding: 0.35rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      color: $ink-muted;
+      margin: 0.4rem 0 0;
+      line-height: 1.4;
+    }
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+
+    .research-theme-photo {
+      max-width: $content-media-max;
+    }
+  }
+}
+
+// Media cards (About — video & press links)
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1rem;
+  max-width: 100%;
+}
+
+.media-card {
+  border: 1px solid $hairline;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $surface;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    border-color: darken($hairline, 6%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  .media-thumb {
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #f3f4f6;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border: none;
+      border-radius: 0;
+      margin: 0;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.02);
+    }
+  }
+
+  .media-body {
+    padding: 0.75rem 0.85rem 0.85rem;
+  }
+
+  .media-title {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 0 0 0.35rem;
+    line-height: 1.35;
+
+    a {
+      color: $ink-strong;
+
+      &:hover { color: $accent; }
+    }
+  }
+
+  .media-desc {
+    font-size: 0.875rem;
+    color: $ink-muted;
+    margin: 0;
+    line-height: 1.45;
+  }
+}
+
+// ============================================================
+//  Profile photo
+// ============================================================
+#title-block-header.quarto-title-block:empty { display: none; }
+
+.profile-intro,
+.about-header {
+  margin-bottom: 1.75rem;
+
+  &::after { content: ""; display: table; clear: both; }
+}
+
+.profile-photo,
+.about-photo {
+  float: right;
+  width: 280px;
+  max-width: 42%;
+  margin: 0.25rem 0 1.25rem 1.75rem;
+
+  img,
+  .profile-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    border-radius: 8px;
+    border: 1px solid $hairline;
+  }
+}
+
+@media (max-width: 575px) {
+  .profile-photo,
+  .about-photo {
+    float: none;
+    width: 72%;
+    max-width: 280px;
+    margin: 0 0 1.25rem;
+  }
+}
+
+// ============================================================
+//  Lists & news
+// ============================================================
+main.content ul:not(.navbar-nav):not(.dropdown-menu):not(.quarto-listing) {
+  margin-bottom: 1.75rem;
+
+  li { margin-bottom: 0.3rem; }
+}
+
+.news-item {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid $hairline;
+
+  p { margin-bottom: 0; }
+
+  p > strong:first-child {
+    color: $ink-muted;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    margin-right: 0.25rem;
+  }
+
+  &:last-of-type { border-bottom: none; }
+}
+
+#selected-publications ~ p {
+  margin-bottom: 0.9rem;
+  line-height: 1.55;
+}
+
+// ============================================================
+//  Tables
+// ============================================================
+main.content table {
+  thead th {
+    border-bottom: 2px solid $hairline;
+    font-weight: 600;
+  }
+
+  td, th { padding: 0.5rem 0.6rem; }
+}
+
+// ============================================================
+//  Listings, TOC, footer
+// ============================================================
+.listing-item,
+.quarto-post {
+  margin-bottom: 1.25rem;
+}
+
+.quarto-listing .thumbnail {
+  width: 9rem;
+  min-width: 9rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid $hairline;
+    object-fit: contain;
+    aspect-ratio: 4 / 3;
+    background: #f8f9fa;
+    padding: 0.35rem;
+  }
+
+  .listing-item-img-placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 8px;
+    border: 1px solid $hairline;
+    background: #f3f4f6;
+  }
+}
+
+#TOC .active {
+  color: $accent;
+  font-weight: 600;
+}
+
+.nav-footer,
+.page-footer {
+  color: $ink-muted;
+  border-top: 1px solid $hairline;
+  margin-top: 2.5rem;
+  padding-top: 1.1rem;
+
+  a { color: $ink-muted; }
+  a:hover { color: $accent; }
+}

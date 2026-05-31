@@ -1,0 +1,63 @@
+---
+title: "Gustavo A. Araújo R."
+title-block-style: none
+page-layout: article
+toc: false
+anchor-sections: false
+---
+
+::: {.profile-intro}
+
+::: {.profile-photo}
+![](assets/images/profile.jpg){.profile-photo width="280" fig-alt="Gustavo A. Araújo R."}
+:::
+
+**Gustavo A. Araújo R.** is a PhD candidate in Civil and Environmental Engineering at [Stanford University](https://profiles.stanford.edu/gustavo-a-araujo) (expected December 2026), where he is a graduate researcher at the [John A. Blume Earthquake Engineering Center](https://blume.stanford.edu/). He combines **experimental testing**, **nonlinear finite-element modeling**, and **GPU-accelerated simulation** to study **reinforced concrete** and **low-damage mass timber–steel** structural systems.
+
+Prior to Stanford, he completed an MS in Wood Science at [Oregon State University](https://oregonstate.edu/) and MS and BS degrees in Civil Engineering at [Universidad del Norte](https://www.uninorte.edu.co/) in Colombia. His work includes full-scale testing of mass timber spine systems with the [TallWood Design Institute](https://tallwoodinstitute.org/), shake-table experiments on a six-story building at UC San Diego, nonlinear modeling of thin reinforced concrete walls, and post-earthquake building performance assessment. He has served in leadership roles with the [EERI Student Leadership Council](https://www.eeri.org/), including Co-President (2024–2025) and Lead Seismic Design Competition Chair (2023–2024).
+
+:::
+
+Research interests:
+
+- Nonlinear finite-element analysis
+- GPU-accelerated computing
+- Earthquake engineering and seismic risk
+- Mass timber and low-damage structural systems
+- Reinforced concrete
+
+# News
+
+::: {.news-item}
+**5/31/2026:** Website launched — research notes, OpenSeesPy examples, and project updates will be posted in [Posts](posts/index.qmd).
+:::
+
+::: {.news-item}
+**2025–2026:** Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University.
+:::
+
+::: {.news-item}
+**2025:** Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in *Journal of Structural Engineering* ([doi:10.1061/JSENDH.STENG-13781](https://doi.org/10.1061/JSENDH.STENG-13781)).
+:::
+
+::: {.news-item}
+**2025:** Participated in the [EERI Learning From Earthquakes Travel Study](https://www.eeri.org/about-eeri/news/27694-lfe-travel-study-explores-mexico-s-40-year-journey-toward-earthquake-resilience) in Mexico City.
+:::
+
+::: {.news-item}
+**2025:** Teaching Assistant for CEE 282 — Nonlinear Structural Analysis, Stanford University.
+:::
+
+::: {.news-item}
+**2023–2025:** Co-President (2024–2025) and Lead Seismic Design Competition Chair (2023–2024), [EERI Student Leadership Council](https://www.eeri.org/).
+:::
+
+# Selected publications
+
+See the full list on [Publications](publications.qmd) or [Google Scholar](https://scholar.google.com/citations?user=rrMcW-UAAAAJ).
+
+**Araújo R., G. A.**, B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). [Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-13781) *Journal of Structural Engineering*, 151(7).
+
+Arteta, C. A., **G. A. Araújo**, A. M. Torregroza, A. F. Martínez, and Y. Lu (2019). [Hybrid Approach for Simulating Shear–Flexure Interaction in RC Walls with Nonlinear Truss and Fiber Models.](https://doi.org/10.1007/s10518-019-00681-6) *Bulletin of Earthquake Engineering*, 17(12), 6437–6462.
+
+Arteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, **G. Araújo**, et al. (2019). [Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake.](https://doi.org/10.1193/061218EQS144M) *Earthquake Spectra*, 35(4), 1763–1793.

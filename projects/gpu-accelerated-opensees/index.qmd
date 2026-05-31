@@ -1,0 +1,38 @@
+---
+title: "GPU-Accelerated OpenSees"
+image: ../../assets/images/projects/opensees-logo.png
+categories: [gpu, opensees, hpc, cuda]
+description: "Exploring CUDA-based solvers and GPU computing to accelerate OpenSees structural dynamic analyses."
+status: Active
+---
+
+## Motivation
+
+Large-scale nonlinear and elastic dynamic analyses in OpenSees spend significant time in linear system solution and assembly phases. **GPU-accelerated computing** offers a path to faster turnaround for parametric studies and regional workflows.
+
+## Objectives
+
+1. Profile bottlenecks in typical OpenSees dynamic analyses
+2. Implement or integrate **CUDA-based sparse solvers** for critical kernels
+3. Validate accuracy and speedup against CPU baselines
+4. Document reproducible workflows for researchers using OpenSeesPy front ends
+
+## Methods
+
+- Finite-element assembly on CPU with GPU-resident linear algebra
+- Benchmark problems: SDOF to multi-story frame and wall models
+- Comparison with CPU direct/sparse solvers
+
+## Related work
+
+Conference presentation at the **[2024 NHERI Computational Symposium](/talks/nheri-computational-symposium-2024/index.qmd)**: *Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing*. Upcoming related work at the **[2026 NHERI Computational Symposium](/talks/nheri-computational-symposium-2026/index.qmd)**.
+
+NVIDIA certification: [Fundamentals of Accelerated Computing with CUDA Python](https://learn.nvidia.com/certificates?id=FgJ6qdaWRLuhGVFwbmBsFw).
+
+## Status
+
+Active development. Code and benchmarks will be released on [GitHub](https://github.com/gaaraujo) when ready.
+
+## Collaborators
+
+Open to collaboration with researchers in the NHERI SimCenter and PEER communities.

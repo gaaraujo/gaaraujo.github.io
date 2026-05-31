@@ -1,0 +1,17 @@
+---
+title: "Design Procedure for Pivoting and Rocking Mass Timber Walls with Controlled Overturning Moment"
+date: 2023-08-24
+categories: [conference, mass-timber]
+venue: "2023 PEER Annual Meeting, Berkeley, CA"
+description: "Design procedure for pivoting and rocking mass timber walls with controlled overturning moment."
+---
+
+## Event
+
+**2023 PEER Annual Meeting**  
+Berkeley, CA · August 24, 2023
+
+## Related links
+
+- [Research](/research.qmd)
+- [PEER](https://peer.berkeley.edu/)

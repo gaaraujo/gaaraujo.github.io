@@ -1,0 +1,16 @@
+---
+title: "OpenSees Workshops in Spanish"
+categories: [opensees, spanish, teaching]
+description: "A four-part Spanish-language workshop series introducing OpenSees."
+---
+
+This four-part Spanish-language workshop series introduces OpenSees for structural analysis. I recorded these videos some time ago, when I was simply an OpenSees user trying to help spread its use in the Spanish-speaking engineering community.
+
+Please take the comments and recommendations in the videos with a grain of salt. They were not produced with professional video or instructional support, and they reflect my understanding and workflow at the time. Even so, many people have found them useful as an accessible starting point for learning OpenSees.
+
+## Videos
+
+- [Taller 1](https://youtu.be/HJrfzjQyxrk?si=J8l8kFa9jSsqkoIX)
+- [Taller 2](https://youtu.be/LaGlLvwb3_k?si=q4CggtK_9l57ZYg7)
+- [Taller 3](https://youtu.be/0zdRPf-DZhQ?si=Nl9MStsolSya69AN)
+- [Taller 4](https://youtu.be/cQ0IrcHHjp4?si=YXvfvPaT3zv2e1GM)

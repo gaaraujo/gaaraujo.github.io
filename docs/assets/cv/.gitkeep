@@ -1,0 +1,5 @@
+# Place your CV PDF here as cv.pdf
+#
+# The CV page links to assets/cv/cv.pdf
+# After `quarto render`, it will be available at:
+#   https://gaaraujo.github.io/assets/cv/cv.pdf

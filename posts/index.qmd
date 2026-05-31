@@ -1,0 +1,15 @@
+---
+title: "Posts"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  date-format: "MMMM D, YYYY"
+page-layout: full
+---
+
+Notes, tutorials, and research updates on nonlinear analysis, OpenSees, GPU computing, and earthquake engineering.

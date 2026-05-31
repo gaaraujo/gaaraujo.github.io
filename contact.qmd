@@ -1,0 +1,37 @@
+---
+title: "Contact"
+---
+
+I welcome inquiries about research collaborations, OpenSees/GPU workflows, and graduate opportunities in structural and earthquake engineering.
+
+## Email
+
+**Academic:** [garaujor@stanford.edu](mailto:garaujor@stanford.edu)
+
+## Affiliation
+
+Gustavo A. Araújo R.  
+PhD Candidate, Civil & Environmental Engineering  
+John A. Blume Earthquake Engineering Center  
+Stanford University  
+Stanford, CA 94305
+
+## Online
+
+| Platform | Link |
+|----------|------|
+| Stanford Profile | [profiles.stanford.edu/gustavo-a-araujo](https://profiles.stanford.edu/gustavo-a-araujo) |
+| Google Scholar | [scholar.google.com/citations?user=rrMcW-UAAAAJ](https://scholar.google.com/citations?user=rrMcW-UAAAAJ) |
+| ResearchGate | [researchgate.net/profile/Gustavo-Araujo-R](https://www.researchgate.net/profile/Gustavo-Araujo-R) |
+| ORCID | [orcid.org/0000-0002-5543-8101](https://orcid.org/0000-0002-5543-8101) |
+| GitHub | [github.com/gaaraujo](https://github.com/gaaraujo) |
+| LinkedIn | [linkedin.com/in/araujorg](https://www.linkedin.com/in/araujorg/) |
+| Goosefolio (Instagram) | [instagram.com/goosefolio](https://www.instagram.com/goosefolio/) — hobby photo account |
+
+## Media
+
+Featured video and press items are on [About](about.qmd#media-profiles).
+
+## Office Hours
+
+Office hours are not listed publicly. Please email to schedule a meeting.

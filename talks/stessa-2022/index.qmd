@@ -1,0 +1,16 @@
+---
+title: "Numerical Modelling of a Three-Story Building Using a Hybrid of Mass Timber Walls with Buckling-Restrained Braces"
+date: 2022-05-27
+categories: [conference, mass-timber]
+venue: "10th International Conference on Behaviour of Steel Structures in Seismic Areas, Timisoara, Romania"
+description: "Numerical modelling of a three-story building using mass timber walls with buckling-restrained braces."
+---
+
+## Event
+
+**10th International Conference on Behaviour of Steel Structures in Seismic Areas (STESSA)**  
+Timisoara, Romania · May 27, 2022
+
+## Related links
+
+- [Research](/research.qmd)

@@ -1,0 +1,20 @@
+/.quarto/
+/_site/
+/.tools/
+**/*.quarto_ipynb
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts (CV lives in cv-source/ submodule)
+cv-source/*.aux
+cv-source/*.bbl
+cv-source/*.bcf
+cv-source/*.blg
+cv-source/*.fdb_latexmk
+cv-source/*.fls
+cv-source/*.log
+cv-source/*.out
+cv-source/*.run.xml
+cv-source/*.synctex.gz
+cv-source/*.toc
+cv-source/main.pdf

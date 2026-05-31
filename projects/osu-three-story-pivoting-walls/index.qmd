@@ -1,0 +1,46 @@
+---
+title: "OSU Three-Story Pivoting Mass Timber Test"
+image: ../../assets/images/about/osu-three-story-lab-2022.jpg
+categories: [mass-timber, experimental, opensees]
+description: "Design, cyclic testing, and numerical modeling of a three-story mass timber building with pivoting walls and buckling-restrained energy dissipators."
+status: Completed
+---
+
+## Overview
+
+As part of my MS research at [Oregon State University](https://oregonstate.edu/) with the [TallWood Design Institute](https://tallwoodinstitute.org/), I worked on the design, experimental testing, and numerical modeling of a three-story mass timber building with **pivoting mass ply panel walls** and **buckling-restrained energy dissipators** at the boundary.
+
+Key publication: [Araújo R. et al. (2025)](https://doi.org/10.1061/JSENDH.STENG-13781), *Journal of Structural Engineering*.
+
+## Testing videos
+
+```{=html}
+<div class="content-video">
+<video controls preload="metadata" playsinline>
+  <source src="/assets/videos/projects/osu-three-story-test-2022.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="/assets/videos/projects/osu-three-story-test-2022.mp4">Download the clip</a>.
+</video>
+<p>Cyclic testing of the three-story mass timber building, Oregon State University, November 2022.</p>
+</div>
+```
+
+```{=html}
+<div class="content-video">
+<video controls preload="metadata" playsinline>
+  <source src="/assets/videos/projects/osu-pivoting-wall-2022.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="/assets/videos/projects/osu-pivoting-wall-2022.mp4">Download the clip</a>.
+</video>
+<p>Close-up of pivoting wall motion during the test, November 2022.</p>
+</div>
+```
+
+## Related talks
+
+- [2023 World Conference on Timber Engineering](/talks/wcte-2023/index.qmd)
+- [2023 PEER Annual Meeting](/talks/peer-annual-meeting-2023/index.qmd)
+- [12th National Conference on Earthquake Engineering (2022)](/talks/ncee-2022/index.qmd)
+- [STESSA 2022](/talks/stessa-2022/index.qmd)
+
+## Collaborators
+
+Profs. Barbara G. Simpson, Andre R. Barbosa, and Arijit Sinha (Oregon State University); TallWood Design Institute partners.

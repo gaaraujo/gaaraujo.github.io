@@ -1,0 +1,25 @@
+---
+title: "Welcome to the Site"
+date: 2026-06-01
+categories: [news, opensees]
+description: "Launching a Quarto site for research notes on nonlinear structural analysis and OpenSees."
+author: Gustavo A. Araújo R.
+---
+
+Welcome! This site replaces my earlier personal page and hosts:
+
+- **Research updates** on nonlinear FE analysis, earthquake engineering, and mass timber systems
+- **OpenSeesPy examples** and GPU/CUDA workflow notes
+- **Project summaries** and links to code on [GitHub](https://github.com/gaaraujo)
+
+## What to expect
+
+Short posts on reproducible analysis workflows, lessons learned from OpenSees model development, and notes from conferences such as the NHERI SimCenter Computational Symposium.
+
+## Stay connected
+
+- [Publications](/publications.qmd)
+- [Google Scholar](https://scholar.google.com/citations?user=rrMcW-UAAAAJ)
+- [Contact](/contact.qmd)
+
+Thanks for visiting!

@@ -1,0 +1,21 @@
+# Conda environment for runnable Quarto examples (OpenSeesPy, plots, etc.).
+# Quarto itself stays installed separately on your system.
+#
+# Create / update:
+#   conda env create -f environment.yml
+#   conda env update -f environment.yml --prune
+#
+# Use when rendering pages with executable Python chunks:
+#   conda activate gaaraujo-website
+#   quarto render
+
+name: gaaraujo-website
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - openseespy

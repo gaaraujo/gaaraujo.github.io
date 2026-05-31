@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Gustavo A. Araújo R.</title>
+<link>https://gaaraujo.github.io/posts/</link>
+<atom:link href="https://gaaraujo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>PhD researcher in structural and earthquake engineering at Stanford University. Nonlinear finite-element analysis, OpenSees, GPU computing, and mass timber systems.
+</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Mon, 01 Jun 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to the Site</title>
+  <dc:creator>Gustavo A. Araújo R.</dc:creator>
+  <link>https://gaaraujo.github.io/posts/2026-06-01-welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Welcome! This site replaces my earlier personal page and hosts:</p>
+<ul>
+<li><strong>Research updates</strong> on nonlinear FE analysis, earthquake engineering, and mass timber systems</li>
+<li><strong>OpenSeesPy examples</strong> and GPU/CUDA workflow notes</li>
+<li><strong>Project summaries</strong> and links to code on <a href="https://github.com/gaaraujo">GitHub</a></li>
+</ul>
+<section id="what-to-expect" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-expect">What to expect</h2>
+<p>Short posts on reproducible analysis workflows, lessons learned from OpenSees model development, and notes from conferences such as the NHERI SimCenter Computational Symposium.</p>
+</section>
+<section id="stay-connected" class="level2">
+<h2 class="anchored" data-anchor-id="stay-connected">Stay connected</h2>
+<ul>
+<li><a href="../../publications.html">Publications</a></li>
+<li><a href="https://scholar.google.com/citations?user=rrMcW-UAAAAJ">Google Scholar</a></li>
+<li><a href="../../contact.html">Contact</a></li>
+</ul>
+<p>Thanks for visiting!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>opensees</category>
+  <guid>https://gaaraujo.github.io/posts/2026-06-01-welcome/</guid>
+  <pubDate>Mon, 01 Jun 2026 07:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
