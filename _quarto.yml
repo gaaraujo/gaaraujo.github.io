@@ -9,7 +9,7 @@ project:
     - "talks/**/*.qmd"
   resources:
     - assets/**
-  post-render: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-render.ps1
+  post-render: bash scripts/post-render.sh
 
 website:
   title: "Gustavo A. Araújo R."

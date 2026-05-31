@@ -37,11 +37,10 @@ quarto preview
 ## Render for production
 
 ```powershell
-conda activate gaaraujo-website   # optional; skip for static pages
 quarto render
 ```
 
-Output is written to `docs/`. The post-render script adds `docs/.nojekyll` for GitHub Pages.
+Output is written to `docs/`. The post-render script (`scripts/post-render.sh`) adds `docs/.nojekyll` for GitHub Pages. Requires `bash` (Git for Windows on local machines; preinstalled on Linux CI).
 
 ## Publish to GitHub Pages
 
