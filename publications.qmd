@@ -6,7 +6,13 @@ A selection of peer-reviewed journal articles and conference papers. For citatio
 
 ## Journal Articles
 
+### 2026
+
+Kontra, S., A. R. Barbosa, A. Sinha, S. Pryor, R. B. Zimmerman, B. G. Simpson, J. W. van de Lindt, S. Pei, **G. A. Araújo R.**, M. McBain, L. Pieroni, P. Mishra, P. A. Uarac, T. Field, and F. Freddi (2026). [Mass timber wall splice connection using glued-in rods: Design methodology, implementation, and shake-table testing in a six-story building.](https://doi.org/10.1016/j.engstruct.2026.122859) *Engineering Structures*, 361, 122859.
+
 ### 2025
+
+McBain, M., L. Pieroni, **G. A. Araújo R.**, S. Kontra, P. Mishra, A. R. Barbosa, L. Gioiella, J. W. van de Lindt, A. Sinha, N. Brown, F. Freddi, and B. G. Simpson (in press). [Design and Shake-Table Testing of a Full-Scale, Six-Story Mass Timber Building with Post-Tensioned Rocking Walls and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-15854) *Journal of Structural Engineering*.
 
 **Araújo R., G. A.**, B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). [Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-13781) *Journal of Structural Engineering*, 151(7), 04025089.
 
@@ -17,6 +23,8 @@ Arteta, C. A., **G. A. Araújo**, A. M. Torregroza, A. F. Martínez, and Y. Lu (
 Arteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, **G. Araújo**, A. M. Torregroza, R. Bonett, C. Blandón, L. R. Fernández-Sola, J. F. Correal, and K. M. Mosalam (2019). [Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake.](https://doi.org/10.1193/061218EQS144M) *Earthquake Spectra*, 35(4), 1763–1793.
 
 ## Conference Papers & Reports
+
+McBain, M., B. G. Simpson, L. Pieroni, **G. A. Araújo R.**, A. R. Barbosa, J. W. van de Lindt, A. Sinha, S. Kontra, P. Mishra, P. Uarac, and T. Field (2025). [Response of Mass Ply Panel, Self-Centering Rocking Walls with Buckling-Restrained Boundary Elements as Energy Dissipators in Shake Table Testing.](https://doi.org/10.52202/080513-0300) *14th World Conference on Timber Engineering (WCTE)*, Brisbane, Australia.
 
 Pieroni, L., **G. Araújo**, B. Simpson, F. Freddi, P. Mishra, P. Uarac, A. Barbosa, et al. (2024). Estimating First and Higher-Mode Effects for the Design of Rocking Mass Timber Walls with Controlled Overturning Moments. *18th World Conference on Earthquake Engineering (18WCEE)*.
 
@@ -32,7 +40,15 @@ Ho, T. X., P. Uarac, A. R. Barbosa, A. Sinha, B. Simpson, **G. A. Araújo R.**, 
 
 **Araújo R., G. A.**, B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Design of a Three-Story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces. *12th National Conference on Earthquake Engineering (12NCEE)*.
 
+Orozco O., G. F., T. X. Ho, **G. A. Araújo R.**, A. R. Barbosa, A. Sinha, and B. G. Simpson (2022). Innovative Mass Timber Seismic Lateral Force Resisting Systems: Testing of a Full-Scale Three-Story Building with Mass Ply Panel (MPP) Rocking Walls. *12th National Conference on Earthquake Engineering (12NCEE)*.
+
+Segura, C. L., C. A. Arteta, **G. A. Araújo**, and J. Wallace (2018). Flexural Compression Capacity of Thin Reinforced Concrete Structural Walls. *11th National Conference on Earthquake Engineering (11NCEE)*, Los Angeles, CA.
+
 **Araújo, G. A.**, C. A. Arteta, and C. A. Blandón (2019). Evaluación de la respuesta sísmica de sistemas de muros delgados de concreto reforzado en zonas de amenaza sísmica alta en Colombia. *IX Congreso Nacional de Ingeniería Sísmica*.
+
+## Experimental Data
+
+Sinha, A., A. R. Barbosa, B. G. Simpson, **G. A. Araújo R.**, T. X. Ho, G. F. Orozco O., and B. T. Miyamoto (2024). [Phase 1: Pivoting Mass Ply Panel (MPP) Wall and Buckling-Restrained Boundary (BRB) Elements.](https://doi.org/10.17603/ds2-ec9j-ek15) In *Emmerson Lab Launch Initiative (ELLI): Cyclic Loading of a Three-Story Building with Lateral Force Resisting Systems (LFRS) using Mass Timber Products and Steel Energy Dissipators*. DesignSafe-CI.
 
 ## Theses & Dissertations
 

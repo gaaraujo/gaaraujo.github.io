@@ -1,0 +1,13 @@
+{
+  "_comment": "ResearchGate figure URLs for paper-highlight news items. Run scripts/fetch-researchgate-figure.ps1 after adding entries.",
+  "figures": [
+    {
+      "doi": "10.1061/JSENDH.STENG-13781",
+      "publication_id": 392237132,
+      "figure": "fig3",
+      "local": "assets/images/publications/jse-2025-pivoting-wall-specimen.jpg",
+      "url": "https://www.researchgate.net/profile/Gustavo-Araujo-R/publication/392237132/figure/fig3/AS:11431281477097533@1748630470920/Pivoting-wall-specimen-afirst-story-components-bBRB-MPP-screwed-connection-and_W640.jpg",
+      "news_sort": "2025-07-01"
+    }
+  ]
+}

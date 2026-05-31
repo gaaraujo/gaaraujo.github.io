@@ -12,7 +12,7 @@ description: "GPU-accelerated linear solvers in OpenSees using AmgX and cuDSS fo
 Session 4A: Physics-Informed AI and Surrogate Modeling for Nonlinear Structural Systems  
 Hearst Memorial Mining Building #290 · Berkeley, CA · May 28, 2026 · 2:40 pm
 
-**Co-author:** Barbara G. Simpson (Stanford University)
+**Co-author:** [Barbara G. Simpson](https://www.linkedin.com/in/barbara-simpson-9255445b/) (Stanford University)
 
 [Session 4A abstracts and presenter list](https://simcenter.designsafe-ci.org/nheri-computational-symposium/2026/agenda/session-abstracts/presenters-session-4a/)
 

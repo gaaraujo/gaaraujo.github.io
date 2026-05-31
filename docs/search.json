@@ -81,7 +81,7 @@
     "href": "research.html#research-themes",
     "title": "Research",
     "section": "Research themes",
-    "text": "Research themes\n\nLow-damage mass timber–steel systems\n\n\nExperimental and numerical investigation of mass timber spine systems with steel buckling-restrained braces (BRBs). This includes a three-story pivoting mass ply wall test at Oregon State University and six-story post-tensioned rocking wall shake-table testing at UC San Diego as part of the NHERI Converging Design project. Key publication: cyclic testing and JSE article on the three-story building (Araújo R. et al., 2025).\n\n\n\nOSU structural laboratory, November 2022.\n\n\n\n\nReinforced concrete walls and frame–wall structures\n\n\nDevelopment and validation of nonlinear models for thin, lightly reinforced concrete walls common in northern South America. Past work includes hybrid truss–fiber models for shear–flexure interaction (Arteta et al., 2019), seismic risk assessment of TLRCW building typologies, and post-earthquake studies of mid-rise RC frame buildings (Arteta et al., 2019).\n\n\n\nPost-earthquake RC frame damage, Colombia (Arteta et al., 2019).\n\n\n\n\nNonlinear finite-element analysis & OpenSeesPy\n\n\nBuilding reproducible analysis workflows for nonlinear static and dynamic simulation using OpenSees and OpenSeesPy. See Examples for code-oriented notes and teaching materials, including an older Spanish-language OpenSees workshop series.\n\n\n\nOpenSees workshop in Spanish (Taller 1) — see workshop series.\n\n\n\n\nGPU-accelerated computing\n\n\nAdapting GPU-based methods to structural analysis to reduce computational cost of high-fidelity nonlinear simulations. This includes work presented at the 2024 and 2026 NHERI Computational Symposia on GPU-accelerated finite-element analysis.\n\n\n\nOpenSees — GPU-accelerated computing (active research).\n\n\n\n\nSeismic hazard, fragility & risk\n\n\nProbabilistic assessment of building performance, fragility functions, and risk metrics for RC and timber systems in high-seismicity regions—including post-earthquake reconnaissance in Colombia and the 2025 EERI Learning From Earthquakes Travel Study in Mexico City.\n\n\n\nEERI LFE Travel Study, Mexico City, 2025."
+    "text": "Research themes\n\nLow-damage mass timber–steel systems\n\n\nExperimental and numerical investigation of mass timber spine systems with steel buckling-restrained braces (BRBs). This includes a three-story pivoting mass ply wall test at Oregon State University and six-story post-tensioned rocking wall shake-table testing at UC San Diego as part of the NHERI Converging Design project. Key publication: cyclic testing and JSE article on the three-story building (Araújo R. et al., 2025).\n\n\n\nOSU structural laboratory, November 2022.\n\n\n\n\nReinforced concrete walls and frame–wall structures\n\n\nDevelopment and validation of nonlinear models for thin, lightly reinforced concrete walls common in northern South America. Past work includes hybrid truss–fiber models for shear–flexure interaction (Arteta et al., 2019), seismic risk assessment of TLRCW building typologies, and post-earthquake studies of mid-rise RC frame buildings (Arteta et al., 2019).\n\n\n\nMS thesis presentation, Universidad del Norte (press coverage).\n\n\n\n\nNonlinear finite-element analysis & OpenSeesPy\n\n\nBuilding reproducible analysis workflows for nonlinear static and dynamic simulation using OpenSees and OpenSeesPy. See Examples for code-oriented notes and teaching materials, including an older Spanish-language OpenSees workshop series.\n\n\n\nOpenSees workshop in Spanish (Taller 1) — see workshop series.\n\n\n\n\nGPU-accelerated computing\n\n\nAdapting GPU-based methods to structural analysis to reduce computational cost of high-fidelity nonlinear simulations. This includes work presented at the 2024 and 2026 NHERI Computational Symposia on GPU-accelerated finite-element analysis.\n\n\n\nExploratorium, San Francisco — GPU computing (active research).\n\n\n\n\nSeismic hazard, fragility & risk\n\n\nProbabilistic assessment of building performance, fragility functions, and risk metrics for RC and timber systems in high-seismicity regions—including post-earthquake reconnaissance in Colombia and the 2025 EERI Learning From Earthquakes Travel Study in Mexico City.\n\n\n\nEERI LFE Travel Study, Mexico City, 2025."
   },
   {
     "objectID": "research.html#tools-methods",
@@ -165,7 +165,7 @@
     "href": "index.html",
     "title": "Gustavo A. Araújo R.",
     "section": "",
-    "text": "Gustavo A. Araújo R. is a PhD candidate in Civil and Environmental Engineering at Stanford University (expected December 2026), where he is a graduate researcher at the John A. Blume Earthquake Engineering Center. He combines experimental testing, nonlinear finite-element modeling, and GPU-accelerated simulation to study reinforced concrete and low-damage mass timber–steel structural systems.\nPrior to Stanford, he completed an MS in Wood Science at Oregon State University and MS and BS degrees in Civil Engineering at Universidad del Norte in Colombia. His work includes full-scale testing of mass timber spine systems with the TallWood Design Institute, shake-table experiments on a six-story building at UC San Diego, nonlinear modeling of thin reinforced concrete walls, and post-earthquake building performance assessment. He has served in leadership roles with the EERI Student Leadership Council, including Co-President (2024–2025) and Lead Seismic Design Competition Chair (2023–2024).\n\nResearch interests:\n\nNonlinear finite-element analysis\nGPU-accelerated computing\nEarthquake engineering and seismic risk\nMass timber and low-damage structural systems\nReinforced concrete\n\n\nNews\n\n5/31/2026: Website launched — research notes, OpenSeesPy examples, and project updates will be posted in Posts.\n\n\n2025–2026: Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University.\n\n\n2025: Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in Journal of Structural Engineering (doi:10.1061/JSENDH.STENG-13781).\n\n\n2025: Participated in the EERI Learning From Earthquakes Travel Study in Mexico City.\n\n\n2025: Teaching Assistant for CEE 282 — Nonlinear Structural Analysis, Stanford University.\n\n\n2023–2025: Co-President (2024–2025) and Lead Seismic Design Competition Chair (2023–2024), EERI Student Leadership Council.\n\n\n\nSelected publications\nSee the full list on Publications or Google Scholar.\nAraújo R., G. A., B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements. Journal of Structural Engineering, 151(7).\nArteta, C. A., G. A. Araújo, A. M. Torregroza, A. F. Martínez, and Y. Lu (2019). Hybrid Approach for Simulating Shear–Flexure Interaction in RC Walls with Nonlinear Truss and Fiber Models. Bulletin of Earthquake Engineering, 17(12), 6437–6462.\nArteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, G. Araújo, et al. (2019). Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake. Earthquake Spectra, 35(4), 1763–1793."
+    "text": "Gustavo A. Araújo R. is a PhD candidate in Civil and Environmental Engineering at Stanford University (expected December 2026), where he is a graduate researcher at the John A. Blume Earthquake Engineering Center. He combines experimental testing, nonlinear finite-element modeling, and GPU-accelerated simulation to study reinforced concrete and low-damage mass timber–steel structural systems.\nPrior to Stanford, he completed an MS in Wood Science at Oregon State University and MS and BS degrees in Civil Engineering at Universidad del Norte in Colombia. His work includes full-scale testing of mass timber spine systems with the TallWood Design Institute, shake-table experiments on a six-story building at UC San Diego, nonlinear modeling of thin reinforced concrete walls, and post-earthquake building performance assessment. He has served in leadership roles with the EERI Student Leadership Council, including Co-President (2024–2025), Lead Seismic Design Competition Chair (2023–2024), and SDC Chair (2022–2023).\n\nResearch interests:\n\nNonlinear finite-element analysis\nGPU-accelerated computing\nEarthquake engineering and seismic risk\nMass timber and low-damage structural systems\nReinforced concrete\n\n\nNews\n\n\nMay 31, 2026: Website launched — research notes, OpenSeesPy examples, and project updates will be posted in Posts.\n\n\nMay 28, 2026: Lightning talk at the 2026 NHERI Computational Symposium — Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers (session abstract, talk page).\n\n\n2026 NHERI Computational Symposium, Hearst Memorial Mining Building, UC Berkeley — Innovation Through Collaboration (OpenSees and GPU-accelerated Python solvers). See the talk page.\n\n\n\nSeptember 2025 – June 2026: Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University.\n\n\nSeptember 2025: Participated in the EERI Learning From Earthquakes Travel Study in Mexico City.\n\n\n\n2025 EERI LFE Travel Study, Mexico City (photos courtesy of EERI).\n\n\n\nJuly 2025: Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in Journal of Structural Engineering, 151(7) (doi:10.1061/JSENDH.STENG-13781).\n\n\nFigure 3, Journal of Structural Engineering 151(7) (doi:10.1061/JSENDH.STENG-13781; ResearchGate) — pivoting-wall specimen (project page).\n\n\n\nAll news →\n\n\nSelected publications\nSee the full list on Publications or Google Scholar.\nKontra, S., A. R. Barbosa, A. Sinha, S. Pryor, R. B. Zimmerman, B. G. Simpson, J. W. van de Lindt, S. Pei, G. A. Araújo R., M. McBain, L. Pieroni, P. Mishra, P. A. Uarac, T. Field, and F. Freddi (2026). Mass timber wall splice connection using glued-in rods: Design methodology, implementation, and shake-table testing in a six-story building. Engineering Structures, 361, 122859.\nAraújo R., G. A., B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements. Journal of Structural Engineering, 151(7).\nArteta, C. A., G. A. Araújo, A. M. Torregroza, A. F. Martínez, and Y. Lu (2019). Hybrid Approach for Simulating Shear–Flexure Interaction in RC Walls with Nonlinear Truss and Fiber Models. Bulletin of Earthquake Engineering, 17(12), 6437–6462.\nArteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, G. Araújo, et al. (2019). Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake. Earthquake Spectra, 35(4), 1763–1793."
   },
   {
     "objectID": "examples/index.html",
@@ -228,7 +228,7 @@
     "href": "about.html#background",
     "title": "About",
     "section": "Background",
-    "text": "Background\nI received BS and MS degrees in Civil Engineering from Universidad del Norte in Barranquilla, Colombia, where I worked with Prof. Carlos A. Arteta on reinforced concrete shear wall buildings, thin lightly reinforced concrete walls, and masonry-infilled moment-resisting frames.\n\n\nBS graduation, Universidad del Norte, Barranquilla, 2018.\n\nIn 2020 I moved to the United States for an MS in Wood Science at Oregon State University. At OSU I worked with Profs. Barbara G. Simpson, Andre R. Barbosa, and Arijit Sinha on the design, experimental testing, and numerical modeling of a three-story mass timber building with pivoting walls and buckling-restrained energy dissipators, in collaboration with the TallWood Design Institute. See the OSU three-story test project for testing videos.\n\n\nAt the OSU structural laboratory during three-story mass timber testing, November 2022 (TallWood Design Institute).\n\nAt Stanford, my doctoral research includes NSF-funded work on GPU-accelerated nonlinear analysis and participation in the NHERI Converging Design project, including Phase II shake-table testing of a six-story mass timber building at UC San Diego in January 2024. See the six-story shake-table project for recordings from the test.\n\n\n\nTeam members on site during the final days of Phase II shake-table testing, UC San Diego, January 2024 (NHERI Converging Design).\n\nBefore graduate school, I completed a PEER summer internship at UC Berkeley (2017), working on nonlinear modeling of reinforced concrete wall buildings with OpenSees under Prof. Jack P. Moehle, and worked as an engineering intern at Ingenia Structural in Colombia.\n\n\nPEER summer interns, 2017 — Pacific Earthquake Engineering Research Center, UC Berkeley."
+    "text": "Background\nI received BS and MS degrees in Civil Engineering from Universidad del Norte in Barranquilla, Colombia, where I worked with Prof. Carlos A. Arteta on reinforced concrete shear wall buildings, thin lightly reinforced concrete walls, and masonry-infilled moment-resisting frames.\n\n\nBS graduation, Universidad del Norte, Barranquilla, 2018.\n\nIn 2020 I moved to the United States for an MS in Wood Science at Oregon State University. At OSU I worked with Profs. Barbara G. Simpson, Andre R. Barbosa, and Arijit Sinha on the design, experimental testing, and numerical modeling of a three-story mass timber building with pivoting walls and buckling-restrained energy dissipators, in collaboration with the TallWood Design Institute. See the OSU three-story test project for testing videos.\n\n\nAt the OSU structural laboratory during three-story mass timber testing, November 2022 (TallWood Design Institute).\n\nAt Stanford, my doctoral research includes NSF-funded work on GPU-accelerated nonlinear analysis and participation in the NHERI Converging Design project, including Phase II shake-table testing of a six-story mass timber building at UC San Diego in January 2024. See the six-story shake-table project for recordings from the test.\n\n\n\nTeam members on site during the final days of Phase II shake-table testing, UC San Diego, January 2024 (NHERI Converging Design).\n\nIn July 2024 I attended the 18th World Conference on Earthquake Engineering (18WCEE) in Milan, Italy, with the Simpson Lab. I presented Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing (lab recap).\n\n\n\n18WCEE, Milan, Italy, July 2024 — Simpson Lab group and at the conference (photos courtesy of Simpson Lab).\n\nIn May 2025 I participated in the Stanford Engineering Centennial Showcase with the Simpson Lab, presenting a scaled shaking-table demo of mass timber rocking walls with BRBs and outreach on NHERI Converging Design testing (lab recap).\n\n\n\nStanford Engineering Centennial Showcase, May 15, 2025 — outdoor demo and Simpson Lab team with the model (photos courtesy of Simpson Lab).\n\nBefore graduate school, I completed a PEER summer internship at UC Berkeley (2017), working on nonlinear modeling of reinforced concrete wall buildings with OpenSees under Prof. Jack P. Moehle, and worked as an engineering intern at Ingenia Structural in Colombia.\n\n\nPEER summer interns, 2017 — Pacific Earthquake Engineering Research Center, UC Berkeley."
   },
   {
     "objectID": "about.html#current-interests",
@@ -410,14 +410,14 @@
     "href": "publications.html#journal-articles",
     "title": "Publications",
     "section": "Journal Articles",
-    "text": "Journal Articles\n\n2025\nAraújo R., G. A., B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements. Journal of Structural Engineering, 151(7), 04025089.\n\n\n2019\nArteta, C. A., G. A. Araújo, A. M. Torregroza, A. F. Martínez, and Y. Lu (2019). Hybrid Approach for Simulating Shear–Flexure Interaction in RC Walls with Nonlinear Truss and Fiber Models. Bulletin of Earthquake Engineering, 17(12), 6437–6462.\nArteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, G. Araújo, A. M. Torregroza, R. Bonett, C. Blandón, L. R. Fernández-Sola, J. F. Correal, and K. M. Mosalam (2019). Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake. Earthquake Spectra, 35(4), 1763–1793."
+    "text": "Journal Articles\n\n2026\nKontra, S., A. R. Barbosa, A. Sinha, S. Pryor, R. B. Zimmerman, B. G. Simpson, J. W. van de Lindt, S. Pei, G. A. Araújo R., M. McBain, L. Pieroni, P. Mishra, P. A. Uarac, T. Field, and F. Freddi (2026). Mass timber wall splice connection using glued-in rods: Design methodology, implementation, and shake-table testing in a six-story building. Engineering Structures, 361, 122859.\n\n\n2025\nMcBain, M., L. Pieroni, G. A. Araújo R., S. Kontra, P. Mishra, A. R. Barbosa, L. Gioiella, J. W. van de Lindt, A. Sinha, N. Brown, F. Freddi, and B. G. Simpson (in press). Design and Shake-Table Testing of a Full-Scale, Six-Story Mass Timber Building with Post-Tensioned Rocking Walls and Buckling-Restrained Boundary Elements. Journal of Structural Engineering.\nAraújo R., G. A., B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements. Journal of Structural Engineering, 151(7), 04025089.\n\n\n2019\nArteta, C. A., G. A. Araújo, A. M. Torregroza, A. F. Martínez, and Y. Lu (2019). Hybrid Approach for Simulating Shear–Flexure Interaction in RC Walls with Nonlinear Truss and Fiber Models. Bulletin of Earthquake Engineering, 17(12), 6437–6462.\nArteta, C. A., J. Carrillo, J. Archbold, D. Gaspar, C. Pajaro, G. Araújo, A. M. Torregroza, R. Bonett, C. Blandón, L. R. Fernández-Sola, J. F. Correal, and K. M. Mosalam (2019). Response of Mid-Rise Reinforced Concrete Frame Buildings to the 2017 Puebla Earthquake. Earthquake Spectra, 35(4), 1763–1793."
   },
   {
     "objectID": "publications.html#conference-papers-reports",
     "href": "publications.html#conference-papers-reports",
     "title": "Publications",
     "section": "Conference Papers & Reports",
-    "text": "Conference Papers & Reports\nPieroni, L., G. Araújo, B. Simpson, F. Freddi, P. Mishra, P. Uarac, A. Barbosa, et al. (2024). Estimating First and Higher-Mode Effects for the Design of Rocking Mass Timber Walls with Controlled Overturning Moments. 18th World Conference on Earthquake Engineering (18WCEE).\nAraújo, G. A., B. Simpson, M. Zhu, and M. Scott (2024). Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing. 18th World Conference on Earthquake Engineering (18WCEE).\nKontra, S., A. R. Barbosa, A. Sinha, G. A. Araújo R., P. Uarac, N. Brown, et al. (2023). Design and Cradle-to-Grave Life-Cycle Assessment: Full-Scale Six-Story Shake-Table Test Building Lateral Systems. 13th World Conference on Timber Engineering (WCTE).\nHo, T. X., P. Uarac, A. R. Barbosa, A. Sinha, B. Simpson, G. A. Araújo R., et al. (2023). Evaluation of Seismic Performance Factors and Fragility Functions for Post-Tensioned Mass Ply Panel Rocking Walls. World Conference on Timber Engineering (WCTE).\nAraújo R., G. A., B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2023). Cyclic Testing and Numerical Modeling of a Three-Story Mass-Timber Building with a Pivoting Mass Ply Panel Spine and Buckling-Restrained Energy Dissipators. World Conference on Timber Engineering (WCTE).\nAraújo R., G. A., B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Numerical Modelling of a Three-Story Building Using a Hybrid of Mass Timber Walls with Buckling-Restrained Braces. International Conference on the Behaviour of Steel Structures in Seismic Areas (STESSA).\nAraújo R., G. A., B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Design of a Three-Story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces. 12th National Conference on Earthquake Engineering (12NCEE).\nAraújo, G. A., C. A. Arteta, and C. A. Blandón (2019). Evaluación de la respuesta sísmica de sistemas de muros delgados de concreto reforzado en zonas de amenaza sísmica alta en Colombia. IX Congreso Nacional de Ingeniería Sísmica."
+    "text": "Conference Papers & Reports\nMcBain, M., B. G. Simpson, L. Pieroni, G. A. Araújo R., A. R. Barbosa, J. W. van de Lindt, A. Sinha, S. Kontra, P. Mishra, P. Uarac, and T. Field (2025). Response of Mass Ply Panel, Self-Centering Rocking Walls with Buckling-Restrained Boundary Elements as Energy Dissipators in Shake Table Testing. 14th World Conference on Timber Engineering (WCTE), Brisbane, Australia.\nPieroni, L., G. Araújo, B. Simpson, F. Freddi, P. Mishra, P. Uarac, A. Barbosa, et al. (2024). Estimating First and Higher-Mode Effects for the Design of Rocking Mass Timber Walls with Controlled Overturning Moments. 18th World Conference on Earthquake Engineering (18WCEE).\nAraújo, G. A., B. Simpson, M. Zhu, and M. Scott (2024). Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing. 18th World Conference on Earthquake Engineering (18WCEE).\nKontra, S., A. R. Barbosa, A. Sinha, G. A. Araújo R., P. Uarac, N. Brown, et al. (2023). Design and Cradle-to-Grave Life-Cycle Assessment: Full-Scale Six-Story Shake-Table Test Building Lateral Systems. 13th World Conference on Timber Engineering (WCTE).\nHo, T. X., P. Uarac, A. R. Barbosa, A. Sinha, B. Simpson, G. A. Araújo R., et al. (2023). Evaluation of Seismic Performance Factors and Fragility Functions for Post-Tensioned Mass Ply Panel Rocking Walls. World Conference on Timber Engineering (WCTE).\nAraújo R., G. A., B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2023). Cyclic Testing and Numerical Modeling of a Three-Story Mass-Timber Building with a Pivoting Mass Ply Panel Spine and Buckling-Restrained Energy Dissipators. World Conference on Timber Engineering (WCTE).\nAraújo R., G. A., B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Numerical Modelling of a Three-Story Building Using a Hybrid of Mass Timber Walls with Buckling-Restrained Braces. International Conference on the Behaviour of Steel Structures in Seismic Areas (STESSA).\nAraújo R., G. A., B. G. Simpson, T. X. Ho, G. F. Orozco O., A. R. Barbosa, and A. Sinha (2022). Design of a Three-Story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces. 12th National Conference on Earthquake Engineering (12NCEE).\nOrozco O., G. F., T. X. Ho, G. A. Araújo R., A. R. Barbosa, A. Sinha, and B. G. Simpson (2022). Innovative Mass Timber Seismic Lateral Force Resisting Systems: Testing of a Full-Scale Three-Story Building with Mass Ply Panel (MPP) Rocking Walls. 12th National Conference on Earthquake Engineering (12NCEE).\nSegura, C. L., C. A. Arteta, G. A. Araújo, and J. Wallace (2018). Flexural Compression Capacity of Thin Reinforced Concrete Structural Walls. 11th National Conference on Earthquake Engineering (11NCEE), Los Angeles, CA.\nAraújo, G. A., C. A. Arteta, and C. A. Blandón (2019). Evaluación de la respuesta sísmica de sistemas de muros delgados de concreto reforzado en zonas de amenaza sísmica alta en Colombia. IX Congreso Nacional de Ingeniería Sísmica."
   },
   {
     "objectID": "publications.html#theses-dissertations",
@@ -523,5 +523,236 @@
     "title": "Numerical Modelling of a Three-Story Building Using a Hybrid of Mass Timber Walls with Buckling-Restrained Braces",
     "section": "Related links",
     "text": "Related links\n\nResearch"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nI received BS and MS degrees in Civil Engineering from Universidad del Norte in Barranquilla, Colombia, where I worked with Prof. Carlos A. Arteta on reinforced concrete shear wall buildings, thin lightly reinforced concrete walls, and masonry-infilled moment-resisting frames.\n\n\nBS graduation, Universidad del Norte, Barranquilla, 2018.\n\nIn 2020 I moved to the United States for an MS in Wood Science at Oregon State University. At OSU I worked with Profs. Barbara G. Simpson, Andre R. Barbosa, and Arijit Sinha on the design, experimental testing, and numerical modeling of a three-story mass timber building with pivoting walls and buckling-restrained energy dissipators, in collaboration with the TallWood Design Institute. See the OSU three-story test project for testing videos.\n\n\nAt the OSU structural laboratory during three-story mass timber testing, November 2022 (TallWood Design Institute).\n\nAt Stanford, my doctoral research includes NSF-funded work on GPU-accelerated nonlinear analysis and participation in the NHERI Converging Design project, including Phase II shake-table testing of a six-story mass timber building at UC San Diego in January 2024. See the six-story shake-table project for recordings from the test.\n\n\n\nTeam members on site during the final days of Phase II shake-table testing, UC San Diego, January 2024 (NHERI Converging Design).\n\nBefore graduate school, I completed a PEER summer internship at UC Berkeley (2017), working on nonlinear modeling of reinforced concrete wall buildings with OpenSees under Prof. Jack P. Moehle, and worked as an engineering intern at Ingenia Structural in Colombia.\n\n\nPEER summer interns, 2017 — Pacific Earthquake Engineering Research Center, UC Berkeley."
+  },
+  {
+    "objectID": "index.html#current-interests",
+    "href": "index.html#current-interests",
+    "title": "About",
+    "section": "Current interests",
+    "text": "Current interests\n\nNonlinear finite-element analysis\nGPU-accelerated computing\nEarthquake engineering and seismic risk\nMass timber and low-damage structural systems\nReinforced concrete"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "About",
+    "section": "Teaching",
+    "text": "Teaching\n\nWinter 2025 — Teaching Assistant, CEE 282: Nonlinear Structural Analysis, Stanford University\n2018–2019 — Graduate Teaching Assistant, Statics, Universidad del Norte\n2014–2017 — Undergraduate Peer Tutor, Universidad del Norte (Statics, Mechanics of Materials, Differential Equations, Soil Mechanics, Structural Analysis)"
+  },
+  {
+    "objectID": "index.html#service-leadership",
+    "href": "index.html#service-leadership",
+    "title": "About",
+    "section": "Service & leadership",
+    "text": "Service & leadership\nSince 2022 I have been an active member of the Earthquake Engineering Research Institute (EERI) Student Leadership Council. I served as Seismic Design Competition (SDC) Chair (2022–2023), Lead SDC Chair (2023–2024), and Co-President (2024–2025). I also delivered an online OpenSees workshop in Spanish through Universidad del Norte and participated in the 2025 EERI Learning From Earthquakes Travel Study in Mexico City.\n\n\n2025 EERI Seismic Design Competition, Berkeley, CA.\n\n\n\n\n2025 EERI Learning From Earthquakes Travel Study — United Nations office (above) and Torre Reforma (below), Mexico City. Photos courtesy of EERI."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\n\nDegree\nInstitution\nField\nYear\n\n\n\n\nPhD (in progress)\nStanford University\nCivil & Environmental Engineering\nExpected Dec 2026\n\n\nMS\nOregon State University\nWood Science\n2023\n\n\nMS\nUniversidad del Norte\nCivil Engineering (Structures)\n2021\n\n\nBS\nUniversidad del Norte\nCivil Engineering\n2018"
+  },
+  {
+    "objectID": "index.html#honors-awards",
+    "href": "index.html#honors-awards",
+    "title": "About",
+    "section": "Honors & awards",
+    "text": "Honors & awards\n\nShah Fellowship on Catastrophic Risk, Stanford University (2025–2026)\nEERI Learning From Earthquakes Travel Study Participant, Mexico City (2025)\nPEER Lightning Talks Contest — Runner-up, UC Berkeley (2023)\nPEER Pitches Contest — Winner, UC Berkeley (2022)\nCum Laude Distinction (MS Thesis), Universidad del Norte (2021)\nTallwood Design Institute Fellowship, Oregon State University (2020–2022)\nProvost’s Distinguished Graduate Scholarship, Oregon State University (2020)\nDiploma for Graduate of Excellence, Universidad del Norte (2018)"
+  },
+  {
+    "objectID": "index.html#media-profiles",
+    "href": "index.html#media-profiles",
+    "title": "About",
+    "section": "Media & profiles",
+    "text": "Media & profiles\n\n  \n    \n      \n    \n    \n      Universidad del Norte video profile\n      Spanish-language report about moving to Oregon State University to continue graduate studies.\n    \n  \n  \n    \n      \n    \n    \n      Universidad del Norte alumni profile\n      Spanish-language article about being admitted to Stanford to complete doctoral studies.\n    \n  \n\nEmail, affiliation, and professional profiles are on the Contact page."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "Updates on research, teaching, leadership, and milestones.\n\n\nMay 31, 2026: Website launched — research notes, OpenSeesPy examples, and project updates will be posted in Posts.\n\n\nMay 28, 2026: Lightning talk at the 2026 NHERI Computational Symposium — Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers (session abstract, talk page).\n\n\n2026 NHERI Computational Symposium, Hearst Memorial Mining Building, UC Berkeley — Innovation Through Collaboration (OpenSees and GPU-accelerated Python solvers). See the talk page.\n\n\n\nSeptember 2025 – June 2026: Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University.\n\n\nSeptember 2025: Participated in the EERI Learning From Earthquakes Travel Study in Mexico City.\n\n\n\n2025 EERI LFE Travel Study, Mexico City (photos courtesy of EERI).\n\n\n\nJuly 2025: Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in Journal of Structural Engineering, 151(7) (doi:10.1061/JSENDH.STENG-13781).\n\n\nFigure 3, Journal of Structural Engineering 151(7) (doi:10.1061/JSENDH.STENG-13781; ResearchGate) — pivoting-wall specimen (project page).\n\n\n\nMay 15, 2025: Participated in the Stanford Engineering Centennial Showcase with the Simpson Lab — a scaled shaking-table demo of mass timber rocking walls with BRBs and outreach on NHERI Converging Design testing (lab recap).\n\n\n\nStanford Engineering Centennial Showcase, May 15, 2025 (photos courtesy of Simpson Lab).\n\n\n\nApril 2025: 2025 EERI Seismic Design Competition, Berkeley, CA — Co-President, EERI Student Leadership Council.\n\n\n2025 EERI Seismic Design Competition, Berkeley, CA.\n\n\n\nFebruary 24, 2025: Advanced to PhD candidacy in Civil and Environmental Engineering, Stanford University.\n\n\nJanuary 2025 – March 2025: Teaching Assistant for CEE 282 — Nonlinear Structural Analysis, Stanford University (Winter Quarter 2025).\n\n\nJuly 1, 2024 – July 5, 2024: Attended the 18th World Conference on Earthquake Engineering (18WCEE) in Milan, Italy, with the Simpson Lab — presented Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing (lab recap, publications).\n\n\n\n18WCEE, Milan, Italy, July 2024 (photos courtesy of Simpson Lab).\n\n\n\nApril 2024: 2024 EERI Seismic Design Competition, Seattle, WA — Lead Seismic Design Competition Chair, EERI Student Leadership Council.\n\n\n2024 EERI Seismic Design Competition, Seattle, WA.\n\n\n\nJanuary 19, 2024: On site for Phase II shake-table testing of a six-story mass timber building at UC San Diego as part of NHERI Converging Design — post-tensioned rocking walls with BRBs and UFP energy dissipators (project page).\n\n\n\nPhase II shake-table testing, UC San Diego, January 2024 (NHERI Converging Design).\n\n\n\nDecember 2023: Completed MS in Wood Science at Oregon State University.\n\n\nMS in Wood Science, Oregon State University, March 2023.\n\n\n\nAugust 2023: Runner-up, PEER Lightning Talks Contest, UC Berkeley.\n\n\nJune 21, 2023: Presented Cyclic Testing and Numerical Modeling of a Three-Story Mass-Timber Building with a Pivoting Mass Ply Panel Spine and Buckling-Restrained Energy Dissipators at the 13th World Conference on Timber Engineering (WCTE), Oslo, Norway (publications, project page).\n\n\n13th World Conference on Timber Engineering (WCTE), Oslo, Norway, June 2023.\n\n\n\nApril 2023: 2023 EERI Seismic Design Competition, San Francisco, CA — Seismic Design Competition Chair, EERI Student Leadership Council.\n\n\n2023 EERI Seismic Design Competition, San Francisco, CA.\n\n\n\nJanuary 2023: Began PhD in Civil & Environmental Engineering at Stanford University (Universidad del Norte alumni profile).\n\n\nNovember 2022: Completed full-scale cyclic testing of a three-story mass timber building with pivoting walls at Oregon State University.\n\n\nOSU structural laboratory, November 2022.\n\n\n\nSeptember 20, 2022: Winner, PEER Pitches Contest — Best Research Pitch at the PEER Researchers’ Workshop, Richmond Field Station, UC Berkeley.\n\n\nPEER Pitches Contest, Pacific Earthquake Engineering Research Center, Richmond Field Station, CA.\n\n\n\nMay 27, 2021: Uninorte press coverage of MS thesis on seismic risk in thin lightly reinforced concrete wall buildings (Cum Laude).\n\n\nPhoto courtesy of Universidad del Norte (Cum Laude thesis on TLRCW building systems).\n\n\n\nFebruary 2021: Defended MS thesis in Civil Engineering at Universidad del Norte (Cum Laude).\n\n\nSeptember 2020: Began MS in Wood Science at Oregon State University (Uninorte video profile).\n\n\nUniversidad del Norte video profile (Spanish).\n\n\n\nSummer 2017: Completed PEER Summer Internship at UC Berkeley as an undergraduate — nonlinear modeling of reinforced concrete wall buildings with OpenSees under Prof. Jack P. Moehle.\n\n\nPEER summer interns, 2017 — Pacific Earthquake Engineering Research Center, UC Berkeley."
+  },
+  {
+    "objectID": "news/2026-05-31-website/index.html",
+    "href": "news/2026-05-31-website/index.html",
+    "title": "May 31, 2026",
+    "section": "",
+    "text": "Website launched — research notes, OpenSeesPy examples, and project updates will be posted in Posts."
+  },
+  {
+    "objectID": "news/2025-09-01-lfe-mexico/index.html",
+    "href": "news/2025-09-01-lfe-mexico/index.html",
+    "title": "September 2025",
+    "section": "",
+    "text": "Participated in the EERI Learning From Earthquakes Travel Study in Mexico City."
+  },
+  {
+    "objectID": "news/2025-05-15-centennial/index.html",
+    "href": "news/2025-05-15-centennial/index.html",
+    "title": "May 15, 2025",
+    "section": "",
+    "text": "Participated in the Stanford Engineering Centennial Showcase with the Simpson Lab — a scaled shaking-table demo of mass timber rocking walls with BRBs and outreach on NHERI Converging Design testing (lab recap)."
+  },
+  {
+    "objectID": "news/2024-09-01-phd-stanford/index.html",
+    "href": "news/2024-09-01-phd-stanford/index.html",
+    "title": "September 2024",
+    "section": "",
+    "text": "Began PhD in Civil & Environmental Engineering at Stanford University (Universidad del Norte alumni profile)."
+  },
+  {
+    "objectID": "news/2024-01-19-ucsd-six-story/index.html",
+    "href": "news/2024-01-19-ucsd-six-story/index.html",
+    "title": "January 19, 2024",
+    "section": "",
+    "text": "On site for Phase II shake-table testing of a six-story mass timber building at UC San Diego as part of NHERI Converging Design — post-tensioned rocking walls with BRBs and UFP energy dissipators (project page)."
+  },
+  {
+    "objectID": "news/2023-08-01-peer-lightning/index.html",
+    "href": "news/2023-08-01-peer-lightning/index.html",
+    "title": "August 2023",
+    "section": "",
+    "text": "Runner-up, PEER Lightning Talks Contest, UC Berkeley."
+  },
+  {
+    "objectID": "news/2022-11-01-osu-three-story/index.html",
+    "href": "news/2022-11-01-osu-three-story/index.html",
+    "title": "November 2022",
+    "section": "",
+    "text": "Completed full-scale cyclic testing of a three-story mass timber building with pivoting walls at Oregon State University."
+  },
+  {
+    "objectID": "news/2021-05-27-uninorte-press/index.html",
+    "href": "news/2021-05-27-uninorte-press/index.html",
+    "title": "May 27, 2021",
+    "section": "",
+    "text": "Uninorte press coverage of MS thesis on seismic risk in thin lightly reinforced concrete wall buildings (Cum Laude)."
+  },
+  {
+    "objectID": "news/2020-09-01-osu-ms-start/index.html",
+    "href": "news/2020-09-01-osu-ms-start/index.html",
+    "title": "September 2020",
+    "section": "",
+    "text": "Began MS in Wood Science at Oregon State University (Uninorte video profile)."
+  },
+  {
+    "objectID": "news/2021-02-01-uninorte-ms-defense/index.html",
+    "href": "news/2021-02-01-uninorte-ms-defense/index.html",
+    "title": "February 2021",
+    "section": "",
+    "text": "Defended MS thesis in Civil Engineering at Universidad del Norte (Cum Laude)."
+  },
+  {
+    "objectID": "news/2022-07-01-slc-sdc-chair/index.html",
+    "href": "news/2022-07-01-slc-sdc-chair/index.html",
+    "title": "July 2022 – June 2023",
+    "section": "",
+    "text": "Seismic Design Competition Chair, EERI Student Leadership Council."
+  },
+  {
+    "objectID": "news/2023-07-01-slc-lead-sdc/index.html",
+    "href": "news/2023-07-01-slc-lead-sdc/index.html",
+    "title": "July 2023 – June 2024",
+    "section": "",
+    "text": "Lead Seismic Design Competition Chair, EERI Student Leadership Council."
+  },
+  {
+    "objectID": "news/2023-12-01-osu-ms/index.html",
+    "href": "news/2023-12-01-osu-ms/index.html",
+    "title": "December 2023",
+    "section": "",
+    "text": "Completed MS in Wood Science at Oregon State University."
+  },
+  {
+    "objectID": "news/2024-07-01-slc-co-president/index.html",
+    "href": "news/2024-07-01-slc-co-president/index.html",
+    "title": "July 2024 – June 2025",
+    "section": "",
+    "text": "Co-President, EERI Student Leadership Council."
+  },
+  {
+    "objectID": "news/2025-01-01-cee-282/index.html",
+    "href": "news/2025-01-01-cee-282/index.html",
+    "title": "January 2025 – March 2025",
+    "section": "",
+    "text": "Teaching Assistant for CEE 282 — Nonlinear Structural Analysis, Stanford University (Winter Quarter 2025)."
+  },
+  {
+    "objectID": "news/2025-07-01-jse-article/index.html",
+    "href": "news/2025-07-01-jse-article/index.html",
+    "title": "July 2025",
+    "section": "",
+    "text": "Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in Journal of Structural Engineering, 151(7) (doi:10.1061/JSENDH.STENG-13781)."
+  },
+  {
+    "objectID": "news/2025-09-01-shah-fellowship/index.html",
+    "href": "news/2025-09-01-shah-fellowship/index.html",
+    "title": "September 2025 – June 2026",
+    "section": "",
+    "text": "Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University."
+  },
+  {
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Overview",
+    "text": "Overview\nAs part of my MS research at Oregon State University with the TallWood Design Institute, I worked on the design, experimental testing, and numerical modeling of a three-story mass timber building with pivoting mass ply panel walls and buckling-restrained energy dissipators at the boundary.\nKey publication: Araújo R. et al. (2025), Journal of Structural Engineering."
+  },
+  {
+    "objectID": "about.html#testing-videos",
+    "href": "about.html#testing-videos",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Testing videos",
+    "text": "Testing videos\n\n\n  \n  Your browser does not support embedded video. Download the clip.\n\nCyclic testing of the three-story mass timber building, Oregon State University, November 2022.\n\n\n\n  \n  Your browser does not support embedded video. Download the clip.\n\nClose-up of pivoting wall motion during the test, November 2022."
+  },
+  {
+    "objectID": "about.html#related-talks",
+    "href": "about.html#related-talks",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Related talks",
+    "text": "Related talks\n\n2023 World Conference on Timber Engineering\n2023 PEER Annual Meeting\n12th National Conference on Earthquake Engineering (2022)\nSTESSA 2022"
+  },
+  {
+    "objectID": "about.html#collaborators",
+    "href": "about.html#collaborators",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Collaborators",
+    "text": "Collaborators\nProfs. Barbara G. Simpson, Andre R. Barbosa, and Arijit Sinha (Oregon State University); TallWood Design Institute partners."
+  },
+  {
+    "objectID": "about.html#event",
+    "href": "about.html#event",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Event",
+    "text": "Event\n2026 NHERI Computational Symposium\nSession 4A: Physics-Informed AI and Surrogate Modeling for Nonlinear Structural Systems\nHearst Memorial Mining Building #290 · Berkeley, CA · May 28, 2026 · 2:40 pm\nCo-author: Barbara G. Simpson (Stanford University)\nSession 4A abstracts and presenter list"
+  },
+  {
+    "objectID": "about.html#abstract",
+    "href": "about.html#abstract",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Abstract",
+    "text": "Abstract\nSolving systems of linear equations is the foundation of many algorithms in nonlinear structural analysis. Although GPU-accelerated iterative solvers have demonstrated transformative speedups across various scientific computing applications, most structural engineering finite element frameworks continue to rely on legacy CPU-based direct solvers. This work extends the OpenSees framework with programming interfaces for two state-of-the-art GPU-accelerated linear solver libraries: AmgX (iterative methods) and cuDSS (direct methods). Both libraries include configurable solver settings that can be tailored to different structural models and GPU hardware, including preconditioners, convergence tolerances, single precision options, storage formats for iterative solvers, and factorization/reordering strategies for direct solvers. Performance is evaluated using a simply supported beam discretized with brick elements and a J2 plasticity constitutive law, subjected to static and dynamic analyses. Depending on model resolution, results show that speedups of up to an order of magnitude can be achieved without notable loss of accuracy when solver parameters are carefully selected. Trade-offs between iterative and direct solvers are assessed in terms of convergence behavior, memory usage, and sensitivity to ill-conditioning. Findings support the use of GPU-accelerated solvers and expand on the algorithms available to reduce computational costs and enable higher-fidelity simulations of nonlinear structural dynamic response."
+  },
+  {
+    "objectID": "about.html#related-links",
+    "href": "about.html#related-links",
+    "title": "Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers",
+    "section": "Related links",
+    "text": "Related links\n\nResearch\nGPU-Accelerated OpenSees project\n2024 NHERI Computational Symposium talk\nNHERI SimCenter"
+  },
+  {
+    "objectID": "publications.html#experimental-data",
+    "href": "publications.html#experimental-data",
+    "title": "Publications",
+    "section": "Experimental Data",
+    "text": "Experimental Data\nSinha, A., A. R. Barbosa, B. G. Simpson, G. A. Araújo R., T. X. Ho, G. F. Orozco O., and B. T. Miyamoto (2024). Phase 1: Pivoting Mass Ply Panel (MPP) Wall and Buckling-Restrained Boundary (BRB) Elements. In Emmerson Lab Launch Initiative (ELLI): Cyclic Loading of a Three-Story Building with Lateral Force Resisting Systems (LFRS) using Mass Timber Products and Steel Energy Dissipators. DesignSafe-CI."
   }
 ]

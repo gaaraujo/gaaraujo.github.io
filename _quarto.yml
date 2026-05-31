@@ -7,6 +7,7 @@ project:
     - "posts/**/*.qmd"
     - "projects/**/*.qmd"
     - "talks/**/*.qmd"
+    - "news/index.qmd"
   resources:
     - assets/**
   post-render: bash scripts/post-render.sh
@@ -27,6 +28,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: news/index.qmd
+        text: News
       - href: about.qmd
         text: About
       - href: research.qmd
@@ -71,6 +74,8 @@ website:
 
 format:
   html:
+    filters:
+      - filters/render-news.lua
     theme:
       light: [default, styles.scss]
     grid:

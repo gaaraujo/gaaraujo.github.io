@@ -18,7 +18,7 @@ anchor-sections: false
 
 ## Background
 
-I received BS and MS degrees in Civil Engineering from [Universidad del Norte](https://www.uninorte.edu.co/) in Barranquilla, Colombia, where I worked with Prof. Carlos A. Arteta on reinforced concrete shear wall buildings, thin lightly reinforced concrete walls, and masonry-infilled moment-resisting frames.
+I received BS and MS degrees in Civil Engineering from [Universidad del Norte](https://www.uninorte.edu.co/) in Barranquilla, Colombia, where I worked with Prof. [Carlos A. Arteta](https://www.linkedin.com/in/carlos-a-arteta-43aa3586/) on reinforced concrete shear wall buildings, thin lightly reinforced concrete walls, and masonry-infilled moment-resisting frames.
 
 ::: {.content-photo}
 ![](assets/images/about/uninorte-graduation-2018.jpg){fig-alt="Gustavo A. Araújo R. receiving his BS in Civil Engineering diploma at Universidad del Norte, 2018" width="520"}
@@ -26,7 +26,7 @@ I received BS and MS degrees in Civil Engineering from [Universidad del Norte](h
 BS graduation, Universidad del Norte, Barranquilla, 2018.
 :::
 
-In 2020 I moved to the United States for an MS in Wood Science at [Oregon State University](https://oregonstate.edu/). At OSU I worked with Profs. Barbara G. Simpson, Andre R. Barbosa, and Arijit Sinha on the design, experimental testing, and numerical modeling of a three-story mass timber building with pivoting walls and buckling-restrained energy dissipators, in collaboration with the [TallWood Design Institute](https://tallwoodinstitute.org/). See the [OSU three-story test project](/projects/osu-three-story-pivoting-walls/index.qmd) for testing videos.
+In 2020 I moved to the United States for an MS in Wood Science at [Oregon State University](https://oregonstate.edu/). At OSU I worked with Profs. [Barbara G. Simpson](https://www.linkedin.com/in/barbara-simpson-9255445b/), [Andre R. Barbosa](https://www.linkedin.com/in/andr%C3%A9-r-barbosa-452a6b/), and [Arijit Sinha](https://www.linkedin.com/in/arijit-sinha-99058827/) on the design, experimental testing, and numerical modeling of a three-story mass timber building with pivoting walls and buckling-restrained energy dissipators, in collaboration with the [TallWood Design Institute](https://tallwoodinstitute.org/). See the [OSU three-story test project](/projects/osu-three-story-pivoting-walls/index.qmd) for testing videos.
 
 ::: {.content-photo}
 ![](assets/images/about/osu-three-story-lab-2022.jpg){fig-alt="Gustavo A. Araújo at the Oregon State University structural laboratory during three-story mass timber testing" width="520"}
@@ -42,6 +42,26 @@ At Stanford, my doctoral research includes NSF-funded work on GPU-accelerated no
 ![](assets/images/about/ucsd-six-story-team-2-2024.jpg){fig-alt="Investigators on site during the final days of six-story mass timber shake-table testing at UC San Diego" width="520"}
 
 Team members on site during the final days of Phase II shake-table testing, UC San Diego, January 2024 (NHERI Converging Design).
+:::
+
+In July 2024 I attended the [18th World Conference on Earthquake Engineering (18WCEE)](https://www.wcee2024.it/) in Milan, Italy, with the [Simpson Lab](https://simpsoba.su.domains/). I presented *Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing* ([lab recap](https://simpsoba.su.domains/lab-update/wcee2024-in-milan-italy/)).
+
+::: {.content-photo-pair}
+![](assets/images/about/wcee2024-milan-group-2024.jpg){fig-alt="Simpson Lab group at the 18th World Conference on Earthquake Engineering in Milan, Italy" width="520"}
+
+![](assets/images/about/wcee2024-milan-gustavo-2024.jpg){fig-alt="Gustavo A. Araújo R. at the 18th World Conference on Earthquake Engineering in Milan, Italy" width="520"}
+
+18WCEE, Milan, Italy, July 2024 — Simpson Lab group and at the conference (photos courtesy of [Simpson Lab](https://simpsoba.su.domains/)).
+:::
+
+In May 2025 I participated in the [Stanford Engineering Centennial Showcase](https://events.stanford.edu/event/stanford-engineering-centennial-celebration-and-showcase) with the [Simpson Lab](https://simpsoba.su.domains/), presenting a scaled shaking-table demo of mass timber rocking walls with BRBs and outreach on [NHERI Converging Design](https://tallwoodinstitute.org/nheri-converging-design/) testing ([lab recap](https://simpsoba.su.domains/lab-update/showcasing-innovation-in-resilient-structural-design-at-the-stanford-engineering-centennial/)).
+
+::: {.content-photo-pair}
+![](assets/images/about/centennial-showcase-demo-2025.jpg){fig-alt="Gustavo A. Araújo R. presenting a scaled mass timber rocking-wall model at the Stanford Engineering Centennial Showcase" width="520"}
+
+![](assets/images/about/centennial-showcase-model-2025.jpg){fig-alt="Simpson Lab team with the shake-table model built for the Centennial Showcase demo" width="520"}
+
+Stanford Engineering Centennial Showcase, May 15, 2025 — outdoor demo and Simpson Lab team with the model (photos courtesy of [Simpson Lab](https://simpsoba.su.domains/)).
 :::
 
 Before graduate school, I completed a [PEER](https://peer.berkeley.edu/) summer internship at UC Berkeley (2017), working on nonlinear modeling of reinforced concrete wall buildings with OpenSees under Prof. Jack P. Moehle, and worked as an engineering intern at [Ingenia Structural](https://www.linkedin.com/company/ingenia-structural/) in Colombia.
@@ -68,7 +88,7 @@ PEER summer interns, 2017 — Pacific Earthquake Engineering Research Center, UC
 
 ## Service & leadership
 
-Since 2022 I have been an active member of the [Earthquake Engineering Research Institute (EERI) Student Leadership Council](https://www.eeri.org/). I served as Seismic Design Competition (SDC) Chair (2022–2023), Lead SDC Chair (2023–2024), and Co-President (2024–2025). I also delivered an online OpenSees workshop in Spanish through Universidad del Norte and participated in the [2025 EERI Learning From Earthquakes Travel Study](https://www.eeri.org/about-eeri/news/27694-lfe-travel-study-explores-mexico-s-40-year-journey-toward-earthquake-resilience) in Mexico City.
+Since 2022 I have been an active member of the [Earthquake Engineering Research Institute (EERI) Student Leadership Council](https://www.eeri.org/). I served as [Seismic Design Competition (SDC) Chair (2022–2023)](https://slc.eeri.org/slc-2022-2023-officers/), [Lead SDC Chair (2023–2024)](https://slc.eeri.org/slc-2023-2024-officers/), and [Co-President (2024–2025)](https://slc.eeri.org/2024-2025-slc-officers/). I also delivered an online OpenSees workshop in Spanish through Universidad del Norte and participated in the [2025 EERI Learning From Earthquakes Travel Study](https://www.eeri.org/about-eeri/news/27694-lfe-travel-study-explores-mexico-s-40-year-journey-toward-earthquake-resilience) in Mexico City.
 
 ::: {.content-photo}
 ![](assets/images/about/eeri-sdc-2025-berkeley.png){fig-alt="2025 EERI Seismic Design Competition participants and team members at Berkeley, California" width="520"}

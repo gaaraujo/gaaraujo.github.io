@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://gaaraujo.github.io/research.html</loc>
-    <lastmod>2026-05-31T09:42:59.908Z</lastmod>
+    <lastmod>2026-05-31T23:19:14.154Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/projects/osu-three-story-pivoting-walls/index.html</loc>
-    <lastmod>2026-05-31T09:40:30.525Z</lastmod>
+    <lastmod>2026-05-31T22:31:36.664Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/projects/index.html</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://gaaraujo.github.io/index.html</loc>
-    <lastmod>2026-05-31T09:23:04.206Z</lastmod>
+    <lastmod>2026-05-31T22:51:14.424Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/examples/index.html</loc>
@@ -42,11 +42,11 @@
   </url>
   <url>
     <loc>https://gaaraujo.github.io/contact.html</loc>
-    <lastmod>2026-05-31T09:22:11.851Z</lastmod>
+    <lastmod>2026-05-31T23:29:01.577Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/about.html</loc>
-    <lastmod>2026-05-31T09:22:08.673Z</lastmod>
+    <lastmod>2026-05-31T22:31:36.283Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/cv.html</loc>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://gaaraujo.github.io/projects/gpu-accelerated-opensees/index.html</loc>
-    <lastmod>2026-05-31T09:43:00.267Z</lastmod>
+    <lastmod>2026-05-31T23:10:02.943Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/projects/nheri-converging-design-six-story/index.html</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://gaaraujo.github.io/publications.html</loc>
-    <lastmod>2026-05-31T08:47:24.947Z</lastmod>
+    <lastmod>2026-05-31T22:43:06.439Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/talks/eeri-lfe-mexico-2025/index.html</loc>
@@ -82,10 +82,82 @@
   </url>
   <url>
     <loc>https://gaaraujo.github.io/talks/nheri-computational-symposium-2026/index.html</loc>
-    <lastmod>2026-05-31T08:50:00.553Z</lastmod>
+    <lastmod>2026-05-31T22:28:36.630Z</lastmod>
   </url>
   <url>
     <loc>https://gaaraujo.github.io/talks/stessa-2022/index.html</loc>
     <lastmod>2026-05-31T08:52:07.456Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/index.html</loc>
+    <lastmod>2026-05-31T22:22:53.999Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2026-05-31-website/index.html</loc>
+    <lastmod>2026-05-31T22:17:03.142Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2025-09-01-lfe-mexico/index.html</loc>
+    <lastmod>2026-05-31T22:17:03.540Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2025-05-15-centennial/index.html</loc>
+    <lastmod>2026-05-31T22:17:04.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2024-09-01-phd-stanford/index.html</loc>
+    <lastmod>2026-05-31T22:17:04.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2024-01-19-ucsd-six-story/index.html</loc>
+    <lastmod>2026-05-31T22:17:06.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2023-08-01-peer-lightning/index.html</loc>
+    <lastmod>2026-05-31T22:17:07.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2022-11-01-osu-three-story/index.html</loc>
+    <lastmod>2026-05-31T22:17:07.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2021-05-27-uninorte-press/index.html</loc>
+    <lastmod>2026-05-31T22:17:08.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2020-09-01-osu-ms-start/index.html</loc>
+    <lastmod>2026-05-31T22:17:09.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2021-02-01-uninorte-ms-defense/index.html</loc>
+    <lastmod>2026-05-31T22:17:09.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2022-07-01-slc-sdc-chair/index.html</loc>
+    <lastmod>2026-05-31T22:17:08.489Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2023-07-01-slc-lead-sdc/index.html</loc>
+    <lastmod>2026-05-31T22:17:07.747Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2023-12-01-osu-ms/index.html</loc>
+    <lastmod>2026-05-31T22:17:06.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2024-07-01-slc-co-president/index.html</loc>
+    <lastmod>2026-05-31T22:17:04.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2025-01-01-cee-282/index.html</loc>
+    <lastmod>2026-05-31T22:17:04.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2025-07-01-jse-article/index.html</loc>
+    <lastmod>2026-05-31T22:17:03.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gaaraujo.github.io/news/2025-09-01-shah-fellowship/index.html</loc>
+    <lastmod>2026-05-31T22:17:03.390Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,11 @@
+---
+title: "News"
+page-layout: article
+toc: false
+anchor-sections: false
+---
+
+Updates on research, teaching, leadership, and milestones.
+
+::: {.news-list photos="true"}
+:::

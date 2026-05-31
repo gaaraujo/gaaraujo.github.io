@@ -14,7 +14,7 @@ anchor-sections: false
 
 **Gustavo A. Araújo R.** is a PhD candidate in Civil and Environmental Engineering at [Stanford University](https://profiles.stanford.edu/gustavo-a-araujo) (expected December 2026), where he is a graduate researcher at the [John A. Blume Earthquake Engineering Center](https://blume.stanford.edu/). He combines **experimental testing**, **nonlinear finite-element modeling**, and **GPU-accelerated simulation** to study **reinforced concrete** and **low-damage mass timber–steel** structural systems.
 
-Prior to Stanford, he completed an MS in Wood Science at [Oregon State University](https://oregonstate.edu/) and MS and BS degrees in Civil Engineering at [Universidad del Norte](https://www.uninorte.edu.co/) in Colombia. His work includes full-scale testing of mass timber spine systems with the [TallWood Design Institute](https://tallwoodinstitute.org/), shake-table experiments on a six-story building at UC San Diego, nonlinear modeling of thin reinforced concrete walls, and post-earthquake building performance assessment. He has served in leadership roles with the [EERI Student Leadership Council](https://www.eeri.org/), including Co-President (2024–2025) and Lead Seismic Design Competition Chair (2023–2024).
+Prior to Stanford, he completed an MS in Wood Science at [Oregon State University](https://oregonstate.edu/) and MS and BS degrees in Civil Engineering at [Universidad del Norte](https://www.uninorte.edu.co/) in Colombia. His work includes full-scale testing of mass timber spine systems with the [TallWood Design Institute](https://tallwoodinstitute.org/), shake-table experiments on a six-story building at UC San Diego, nonlinear modeling of thin reinforced concrete walls, and post-earthquake building performance assessment. He has served in leadership roles with the [EERI Student Leadership Council](https://www.eeri.org/), including Co-President (2024–2025), Lead Seismic Design Competition Chair (2023–2024), and SDC Chair (2022–2023).
 
 :::
 
@@ -28,33 +28,16 @@ Research interests:
 
 # News
 
-::: {.news-item}
-**5/31/2026:** Website launched — research notes, OpenSeesPy examples, and project updates will be posted in [Posts](posts/index.qmd).
+::: {.news-list limit="5"}
 :::
 
-::: {.news-item}
-**2025–2026:** Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University.
-:::
-
-::: {.news-item}
-**2025:** Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in *Journal of Structural Engineering* ([doi:10.1061/JSENDH.STENG-13781](https://doi.org/10.1061/JSENDH.STENG-13781)).
-:::
-
-::: {.news-item}
-**2025:** Participated in the [EERI Learning From Earthquakes Travel Study](https://www.eeri.org/about-eeri/news/27694-lfe-travel-study-explores-mexico-s-40-year-journey-toward-earthquake-resilience) in Mexico City.
-:::
-
-::: {.news-item}
-**2025:** Teaching Assistant for CEE 282 — Nonlinear Structural Analysis, Stanford University.
-:::
-
-::: {.news-item}
-**2023–2025:** Co-President (2024–2025) and Lead Seismic Design Competition Chair (2023–2024), [EERI Student Leadership Council](https://www.eeri.org/).
-:::
+[All news →](news/index.qmd){.news-more}
 
 # Selected publications
 
 See the full list on [Publications](publications.qmd) or [Google Scholar](https://scholar.google.com/citations?user=rrMcW-UAAAAJ).
+
+Kontra, S., A. R. Barbosa, A. Sinha, S. Pryor, R. B. Zimmerman, B. G. Simpson, J. W. van de Lindt, S. Pei, **G. A. Araújo R.**, M. McBain, L. Pieroni, P. Mishra, P. A. Uarac, T. Field, and F. Freddi (2026). [Mass timber wall splice connection using glued-in rods: Design methodology, implementation, and shake-table testing in a six-story building.](https://doi.org/10.1016/j.engstruct.2026.122859) *Engineering Structures*, 361, 122859.
 
 **Araújo R., G. A.**, B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). [Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-13781) *Journal of Structural Engineering*, 151(7).
 

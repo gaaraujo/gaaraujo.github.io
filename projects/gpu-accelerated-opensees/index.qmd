@@ -1,6 +1,6 @@
 ---
 title: "GPU-Accelerated OpenSees"
-image: ../../assets/images/projects/opensees-logo.png
+image: ../../assets/images/about/gpu-exploratorium-microscope-2024.jpg
 categories: [gpu, opensees, hpc, cuda]
 description: "Exploring CUDA-based solvers and GPU computing to accelerate OpenSees structural dynamic analyses."
 status: Active
@@ -9,6 +9,12 @@ status: Active
 ## Motivation
 
 Large-scale nonlinear and elastic dynamic analyses in OpenSees spend significant time in linear system solution and assembly phases. **GPU-accelerated computing** offers a path to faster turnaround for parametric studies and regional workflows.
+
+::: {.content-photo}
+![](../../assets/images/about/gpu-exploratorium-microscope-2024.jpg){fig-alt="Damaged GPU chip viewed under a microscope at the Exploratorium Peer into a Chip exhibit, San Francisco" width="520"}
+
+Exploratorium, San Francisco, August 2024 — *Peer into a Chip* exhibit.
+:::
 
 ## Objectives
 

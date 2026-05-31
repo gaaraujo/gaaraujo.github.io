@@ -1,0 +1,245 @@
+[
+  {
+    "sort": "2026-05-31",
+    "label": "May 31, 2026",
+    "text": "Website launched — research notes, OpenSeesPy examples, and project updates will be posted in [Posts](/posts/index.qmd)."
+  },
+  {
+    "sort": "2026-05-28",
+    "label": "May 28, 2026",
+    "text": "Lightning talk at the [2026 NHERI Computational Symposium](https://simcenter.designsafe-ci.org/nheri-computational-symposium/2026/) — *Enabling Higher-Resolution Nonlinear Structural Analysis Through GPU-Accelerated Solvers* ([session abstract](https://simcenter.designsafe-ci.org/nheri-computational-symposium/2026/agenda/session-abstracts/presenters-session-4a/), [talk page](/talks/nheri-computational-symposium-2026/index.qmd)).",
+    "photos": [
+      {
+        "src": "assets/images/about/nheri-computational-symposium-2026.jpg",
+        "alt": "Gustavo A. Araújo R. presenting on GPU-accelerated solvers in OpenSees at the 2026 NHERI Computational Symposium, UC Berkeley"
+      }
+    ],
+    "photo_caption": "2026 NHERI Computational Symposium, Hearst Memorial Mining Building, UC Berkeley — *Innovation Through Collaboration* (OpenSees and GPU-accelerated Python solvers). See the [talk page](/talks/nheri-computational-symposium-2026/index.qmd)."
+  },
+  {
+    "sort": "2025-09-01",
+    "label": "September 2025 – June 2026",
+    "text": "Shah Fellowship on Catastrophic Risk, Department of Civil and Environmental Engineering, Stanford University."
+  },
+  {
+    "sort": "2025-09-01",
+    "label": "September 2025",
+    "text": "Participated in the [EERI Learning From Earthquakes Travel Study](https://www.eeri.org/about-eeri/news/27694-lfe-travel-study-explores-mexico-s-40-year-journey-toward-earthquake-resilience) in Mexico City.",
+    "photos": [
+      {
+        "src": "assets/images/about/eeri-lfe-mexico-un-2025.jpg",
+        "alt": "2025 EERI Learning From Earthquakes travel study participants at the United Nations office in Mexico City"
+      },
+      {
+        "src": "assets/images/about/eeri-lfe-mexico-torre-reforma-2025.jpg",
+        "alt": "2025 EERI Learning From Earthquakes travel study group at Torre Reforma, Mexico City"
+      }
+    ],
+    "photo_caption": "2025 EERI LFE Travel Study, Mexico City (photos courtesy of [EERI](https://www.eeri.org/))."
+  },
+  {
+    "sort": "2025-07-01",
+    "label": "July 2025",
+    "text": "Journal article on experimental and numerical simulation of a three-story mass timber building with pivoting walls published in *Journal of Structural Engineering*, 151(7) ([doi:10.1061/JSENDH.STENG-13781](https://doi.org/10.1061/JSENDH.STENG-13781)).",
+    "photos": [
+      {
+        "src": "assets/images/publications/jse-2025-pivoting-wall-specimen.jpg",
+        "alt": "Three-story pivoting-wall test specimen showing first-story BRB, MPP screwed connection, and boundary elements"
+      }
+    ],
+    "photo_caption": "Figure 3, *Journal of Structural Engineering* 151(7) ([doi:10.1061/JSENDH.STENG-13781](https://doi.org/10.1061/JSENDH.STENG-13781); [ResearchGate](https://www.researchgate.net/publication/392237132)) — pivoting-wall specimen ([project page](/projects/osu-three-story-pivoting-walls/index.qmd))."
+  },
+  {
+    "sort": "2025-05-15",
+    "label": "May 15, 2025",
+    "text": "Participated in the [Stanford Engineering Centennial Showcase](https://events.stanford.edu/event/stanford-engineering-centennial-celebration-and-showcase) with the [Simpson Lab](https://simpsoba.su.domains/) — a scaled shaking-table demo of mass timber rocking walls with BRBs and outreach on [NHERI Converging Design](https://tallwoodinstitute.org/nheri-converging-design/) testing ([lab recap](https://simpsoba.su.domains/lab-update/showcasing-innovation-in-resilient-structural-design-at-the-stanford-engineering-centennial/)).",
+    "photos": [
+      {
+        "src": "assets/images/about/centennial-showcase-demo-2025.jpg",
+        "alt": "Gustavo A. Araújo R. presenting a scaled mass timber rocking-wall model at the Stanford Engineering Centennial Showcase"
+      },
+      {
+        "src": "assets/images/about/centennial-showcase-model-2025.jpg",
+        "alt": "Simpson Lab team with the shake-table model built for the Centennial Showcase demo"
+      }
+    ],
+    "photo_caption": "Stanford Engineering Centennial Showcase, May 15, 2025 (photos courtesy of Simpson Lab)."
+  },
+  {
+    "sort": "2025-04-01",
+    "label": "April 2025",
+    "text": "[2025 EERI Seismic Design Competition](https://www.eeri.org/), Berkeley, CA — Co-President, [EERI Student Leadership Council](https://slc.eeri.org/2024-2025-slc-officers/).",
+    "photos": [
+      {
+        "src": "assets/images/about/eeri-sdc-2025-berkeley.png",
+        "alt": "2025 EERI Seismic Design Competition participants and team members at Berkeley, California"
+      }
+    ],
+    "photo_caption": "2025 EERI Seismic Design Competition, Berkeley, CA."
+  },
+  {
+    "sort": "2025-02-24",
+    "label": "February 24, 2025",
+    "text": "Advanced to PhD candidacy in Civil and Environmental Engineering, Stanford University."
+  },
+  {
+    "sort": "2025-01-01",
+    "label": "January 2025 – March 2025",
+    "text": "Teaching Assistant for CEE 282 — Nonlinear Structural Analysis, Stanford University (Winter Quarter 2025)."
+  },
+  {
+    "sort": "2023-01-01",
+    "label": "January 2023",
+    "text": "Began PhD in Civil & Environmental Engineering at Stanford University ([Universidad del Norte alumni profile](https://www.uninorte.edu.co/web/blog.egresados/egresados-destacados-entradas/-/blogs/gustavo-araujo-es-admitido-en-la-universidad-de-stanford-para-culminar-sus-estudios-doctorales))."
+  },
+  {
+    "sort": "2024-07-05",
+    "label": "July 1, 2024 – July 5, 2024",
+    "text": "Attended the [18th World Conference on Earthquake Engineering (18WCEE)](https://www.wcee2024.it/) in Milan, Italy, with the [Simpson Lab](https://simpsoba.su.domains/) — presented *Accelerating Finite-Element Structural Elastic Dynamic Analysis Using GPU Computing* ([lab recap](https://simpsoba.su.domains/lab-update/wcee2024-in-milan-italy/), [publications](/publications.qmd)).",
+    "photos": [
+      {
+        "src": "assets/images/about/wcee2024-milan-group-2024.jpg",
+        "alt": "Simpson Lab group at the 18th World Conference on Earthquake Engineering in Milan, Italy"
+      },
+      {
+        "src": "assets/images/about/wcee2024-milan-gustavo-2024.jpg",
+        "alt": "Gustavo A. Araújo R. at the 18th World Conference on Earthquake Engineering in Milan, Italy"
+      }
+    ],
+    "photo_caption": "18WCEE, Milan, Italy, July 2024 (photos courtesy of Simpson Lab)."
+  },
+  {
+    "sort": "2024-04-01",
+    "label": "April 2024",
+    "text": "[2024 EERI Seismic Design Competition](https://www.eeri.org/), Seattle, WA — Lead Seismic Design Competition Chair, [EERI Student Leadership Council](https://slc.eeri.org/slc-2023-2024-officers/).",
+    "photos": [
+      {
+        "src": "assets/images/about/eeri-sdc-2024-seattle.jpg",
+        "alt": "2024 EERI Seismic Design Competition team at the finals in Seattle, Washington"
+      }
+    ],
+    "photo_caption": "2024 EERI Seismic Design Competition, Seattle, WA."
+  },
+  {
+    "sort": "2024-01-19",
+    "label": "January 19, 2024",
+    "text": "On site for Phase II shake-table testing of a six-story mass timber building at UC San Diego as part of [NHERI Converging Design](https://tallwoodinstitute.org/nheri-converging-design/) — post-tensioned rocking walls with BRBs and UFP energy dissipators ([project page](/projects/nheri-converging-design-six-story/index.qmd)).",
+    "photos": [
+      {
+        "src": "assets/images/about/ucsd-six-story-team-1-2024.jpg",
+        "alt": "NHERI Converging Design team members at the UC San Diego shake-table facility during Phase II testing"
+      },
+      {
+        "src": "assets/images/about/ucsd-six-story-team-2-2024.jpg",
+        "alt": "Investigators on site during the final days of six-story mass timber shake-table testing at UC San Diego"
+      }
+    ],
+    "photo_caption": "Phase II shake-table testing, UC San Diego, January 2024 (NHERI Converging Design)."
+  },
+  {
+    "sort": "2023-12-01",
+    "label": "December 2023",
+    "text": "Completed MS in Wood Science at Oregon State University.",
+    "photos": [
+      {
+        "src": "assets/images/about/osu-ms-wood-science-graduation-2023.jpg",
+        "alt": "Gustavo A. Araújo R. holding his Oregon State University Master of Science in Wood Science diploma"
+      }
+    ],
+    "photo_caption": "MS in Wood Science, Oregon State University, March 2023."
+  },
+  {
+    "sort": "2023-08-01",
+    "label": "August 2023",
+    "text": "Runner-up, [PEER Lightning Talks Contest](https://peer.berkeley.edu/), UC Berkeley."
+  },
+  {
+    "sort": "2023-06-21",
+    "label": "June 21, 2023",
+    "text": "Presented *Cyclic Testing and Numerical Modeling of a Three-Story Mass-Timber Building with a Pivoting Mass Ply Panel Spine and Buckling-Restrained Energy Dissipators* at the [13th World Conference on Timber Engineering (WCTE)](https://www.wcte2023.com/), Oslo, Norway ([publications](/publications.qmd), [project page](/projects/osu-three-story-pivoting-walls/index.qmd)).",
+    "photos": [
+      {
+        "src": "assets/images/about/wcte-2023-oslo-presentation.jpg",
+        "alt": "Gustavo A. Araújo R. presenting at the 13th World Conference on Timber Engineering in Oslo, Norway"
+      }
+    ],
+    "photo_caption": "13th World Conference on Timber Engineering (WCTE), Oslo, Norway, June 2023."
+  },
+  {
+    "sort": "2023-04-01",
+    "label": "April 2023",
+    "text": "[2023 EERI Seismic Design Competition](https://www.eeri.org/), San Francisco, CA — Seismic Design Competition Chair, [EERI Student Leadership Council](https://slc.eeri.org/slc-2022-2023-officers/).",
+    "photos": [
+      {
+        "src": "assets/images/about/eeri-sdc-2023-san-francisco.jpg",
+        "alt": "2023 EERI Seismic Design Competition team at the finals in San Francisco, California"
+      }
+    ],
+    "photo_caption": "2023 EERI Seismic Design Competition, San Francisco, CA."
+  },
+  {
+    "sort": "2022-11-01",
+    "label": "November 2022",
+    "text": "Completed full-scale cyclic testing of a [three-story mass timber building with pivoting walls](/projects/osu-three-story-pivoting-walls/index.qmd) at Oregon State University.",
+    "photos": [
+      {
+        "src": "assets/images/about/osu-three-story-lab-2022.jpg",
+        "alt": "Three-story mass timber test specimen at the Oregon State University structural laboratory"
+      }
+    ],
+    "photo_caption": "OSU structural laboratory, November 2022."
+  },
+  {
+    "sort": "2022-09-20",
+    "label": "September 20, 2022",
+    "text": "Winner, [PEER Pitches Contest](https://peer.berkeley.edu/) — Best Research Pitch at the PEER Researchers' Workshop, Richmond Field Station, UC Berkeley.",
+    "photos": [
+      {
+        "src": "assets/images/about/peer-pitches-winner-2022.jpg",
+        "alt": "Best Research Pitch award certificate for Gustavo Araujo at the PEER Pitches Contest"
+      }
+    ],
+    "photo_caption": "PEER Pitches Contest, Pacific Earthquake Engineering Research Center, Richmond Field Station, CA."
+  },
+  {
+    "sort": "2021-05-27",
+    "label": "May 27, 2021",
+    "text": "[Uninorte press coverage](https://www.uninorte.edu.co/web/grupo-prensa/w/gustavo-araujo-recibe-distincion-cum-laude-por-estudio-que-eval%C3%BAa-el-riesgo-sismico-en-muros-delgados) of MS thesis on seismic risk in thin lightly reinforced concrete wall buildings (*Cum Laude*).",
+    "photos": [
+      {
+        "src": "assets/images/about/uninorte-ms-thesis-cum-laude-2021.jpg",
+        "alt": "Gustavo A. Araújo R. presenting his MS thesis research on seismic risk in thin lightly reinforced concrete wall buildings"
+      }
+    ],
+    "photo_caption": "Photo courtesy of [Universidad del Norte](https://www.uninorte.edu.co/web/grupo-prensa/w/gustavo-araujo-recibe-distincion-cum-laude-por-estudio-que-eval%C3%BAa-el-riesgo-sismico-en-muros-delgados) (*Cum Laude* thesis on TLRCW building systems)."
+  },
+  {
+    "sort": "2021-02-01",
+    "label": "February 2021",
+    "text": "Defended MS thesis in Civil Engineering at Universidad del Norte (*Cum Laude*)."
+  },
+  {
+    "sort": "2020-09-01",
+    "label": "September 2020",
+    "text": "Began MS in Wood Science at Oregon State University ([Uninorte video profile](https://youtu.be/iHbXxmlKJ8M)).",
+    "photos": [
+      {
+        "src": "https://img.youtube.com/vi/iHbXxmlKJ8M/hqdefault.jpg",
+        "alt": "Thumbnail for Universidad del Norte video profile about graduate studies at Oregon State University"
+      }
+    ],
+    "photo_caption": "Universidad del Norte [video profile](https://youtu.be/iHbXxmlKJ8M) (Spanish)."
+  },
+  {
+    "sort": "2017-07-01",
+    "label": "Summer 2017",
+    "text": "Completed [PEER](https://peer.berkeley.edu/) Summer Internship at UC Berkeley as an undergraduate — nonlinear modeling of reinforced concrete wall buildings with OpenSees under Prof. Jack P. Moehle.",
+    "photos": [
+      {
+        "src": "assets/images/peer-intern-2017.jpg",
+        "alt": "2017 PEER summer interns at the Pacific Earthquake Engineering Research Center, UC Berkeley"
+      }
+    ],
+    "photo_caption": "PEER summer interns, 2017 — Pacific Earthquake Engineering Research Center, UC Berkeley."
+  }
+]

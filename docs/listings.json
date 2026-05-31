@@ -30,5 +30,13 @@
     "items": [
       "/examples/opensees-spanish-workshops/index.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": []
   }
 ]
