@@ -52,6 +52,8 @@ Output is written to `docs/`. The post-render script adds `docs/.nojekyll` for G
    - **Branch:** `main` (or your default branch)
    - **Folder:** `/docs`
 
+GitHub runs the built-in **pages build and deployment** workflow on each push. It serves the committed `docs/` folder and does **not** need the private Overleaf `cv-source/` checkout (the PDF in `assets/cv/cv.pdf` is committed instead).
+
 ## Site structure
 
 | Path | Purpose |
@@ -80,24 +82,18 @@ If rendering fails on Windows with a locked `site_libs`, `*_files`, or `.quarto/
 
 ## CV (Overleaf sync)
 
-The CV PDF is **not** edited directly on the website. It is built from LaTeX source in the `cv-source/` folder, which tracks your [Overleaf project](https://git.overleaf.com/6440339541540a8edd971bfa).
+The CV PDF is **not** edited directly on the website. It is built from LaTeX source in a local `cv-source/` folder that clones your [Overleaf project](https://git.overleaf.com/6440339541540a8edd971bfa). That folder is gitignored and is not part of CI.
 
 ### First-time setup
 
 ```powershell
-git submodule update --init cv-source
 .\scripts\sync-cv.ps1
 quarto render
 ```
 
-If the submodule is not configured yet:
+`sync-cv.ps1` clones `cv-source/` from Overleaf on first run if it is missing.
 
-```powershell
-git submodule add https://git.overleaf.com/6440339541540a8edd971bfa cv-source
-.\scripts\sync-cv.ps1
-```
-
-Requires **Git** and a LaTeX install with `latexmk` (TeX Live or MiKTeX). The `cv-source/` submodule is for local editing only; GitHub Actions does not clone it (the built PDF in `assets/cv/cv.pdf` is committed instead).
+Requires **Git** and a LaTeX install with `latexmk` (TeX Live or MiKTeX). Commit the rebuilt `assets/cv/cv.pdf` after syncing — GitHub Pages uses that file, not the Overleaf repo.
 
 ### Update workflow
 

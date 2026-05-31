@@ -1,6 +1,7 @@
 /.quarto/
 /_site/
 /.tools/
+/cv-source/
 **/*.quarto_ipynb
 .DS_Store
 Thumbs.db

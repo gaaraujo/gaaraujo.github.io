@@ -2,10 +2,10 @@
 #
 # Usage:
 #   .\scripts\sync-cv.ps1              # pull from Overleaf + build
-#   .\scripts\sync-cv.ps1 -SkipPull      # build local cv/ source only
+#   .\scripts\sync-cv.ps1 -SkipPull      # build local cv-source/ only
 #
 # Prerequisites:
-#   - Git submodule initialized:  git submodule update --init cv-source
+#   - cv-source/ cloned from Overleaf (this script clones on first run)
 #   - LaTeX with latexmk (TeX Live / MiKTeX)
 
 param(
