@@ -8,13 +8,15 @@ author: Gustavo A. Araújo R.
 
 I released [`openseespy-solvers`](https://pypi.org/project/openseespy-solvers/), a Python package that provides SciPy-style sparse linear and eigen solvers for OpenSeesPy's [`PythonSparse`](https://opensees.github.io/OpenSeesDocumentation/user/manual/analysis/system/PythonSparse.html) system command.
 
-The goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar. OpenSeesPy assembles the stiffness, mass, and right-hand-side arrays; the solver object receives those arrays, calls a numerical backend, and returns the solution to OpenSeesPy.
+The goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar.
 
-::: {.content-photo}
-![](../../assets/images/posts/openseespy-solvers-python-solver.png){fig-alt="Schematic of OpenSees assembling residual and tangent matrices, passing them to a Python solver object, copying data to a GPU backend, solving for displacement increments, and returning the result to OpenSees." width="820"}
+## How it works
 
-Conceptual workflow for connecting OpenSeesPy's `PythonSparse` interface to external Python solver backends, including GPU-enabled sparse solves.
-:::
+![Conceptual workflow for connecting OpenSeesPy's `PythonSparse` interface to external Python solver backends, including GPU-enabled sparse solves.](../../assets/images/posts/openseespy-solvers-python-solver.png){fig-alt="Schematic of OpenSees assembling residual and tangent matrices, passing them to a Python solver object, copying data to a GPU backend, solving for displacement increments, and returning the result to OpenSees." width="100%"}
+
+OpenSeesPy still owns the finite-element model, the implicit integration loop, and the element state determination. During each analysis step, OpenSeesPy assembles the residual vector and tangent matrix, then passes those arrays through `PythonSparse` to a Python solver object.
+
+That solver object can call a CPU backend such as SciPy, or copy the assembled arrays to a GPU backend such as CuPy or NVIDIA nvMath. Once the backend solves for the displacement increment, the solver writes the result back to OpenSeesPy so the analysis can update the trial state, check convergence, and continue.
 
 ## Install
 

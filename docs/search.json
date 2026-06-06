@@ -326,7 +326,14 @@
     "href": "posts/2026-06-06-openseespy-solvers/index.html",
     "title": "Introducing openseespy-solvers",
     "section": "",
-    "text": "I released openseespy-solvers, a Python package that provides SciPy-style sparse linear and eigen solvers for OpenSeesPy’s PythonSparse system command.\nThe goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar. OpenSeesPy assembles the stiffness, mass, and right-hand-side arrays; the solver object receives those arrays, calls a numerical backend, and returns the solution to OpenSeesPy."
+    "text": "I released openseespy-solvers, a Python package that provides SciPy-style sparse linear and eigen solvers for OpenSeesPy’s PythonSparse system command.\nThe goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar."
+  },
+  {
+    "objectID": "posts/2026-06-06-openseespy-solvers/index.html#how-it-works",
+    "href": "posts/2026-06-06-openseespy-solvers/index.html#how-it-works",
+    "title": "Introducing openseespy-solvers",
+    "section": "How it works",
+    "text": "How it works\n\n\n\nConceptual workflow for connecting OpenSeesPy’s PythonSparse interface to external Python solver backends, including GPU-enabled sparse solves.\n\n\nOpenSeesPy still owns the finite-element model, the implicit integration loop, and the element state determination. During each analysis step, OpenSeesPy assembles the residual vector and tangent matrix, then passes those arrays through PythonSparse to a Python solver object.\nThat solver object can call a CPU backend such as SciPy, or copy the assembled arrays to a GPU backend such as CuPy or NVIDIA nvMath. Once the backend solves for the displacement increment, the solver writes the result back to OpenSeesPy so the analysis can update the trial state, check convergence, and continue."
   },
   {
     "objectID": "posts/2026-06-06-openseespy-solvers/index.html#install",
