@@ -1,0 +1,81 @@
+---
+title: "Introducing openseespy-solvers"
+date: 2026-06-06
+categories: [opensees, python, hpc, gpu]
+description: "A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy's PythonSparse system."
+author: Gustavo A. Araújo R.
+---
+
+I released [`openseespy-solvers`](https://pypi.org/project/openseespy-solvers/), a Python package that provides SciPy-style sparse linear and eigen solvers for OpenSeesPy's [`PythonSparse`](https://opensees.github.io/OpenSeesDocumentation/user/manual/analysis/system/PythonSparse.html) system command.
+
+The goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar. OpenSeesPy assembles the stiffness, mass, and right-hand-side arrays; the solver object receives those arrays, calls a numerical backend, and returns the solution to OpenSeesPy.
+
+## Install
+
+The base package includes NumPy/SciPy CPU solvers and requires Python 3.12 or newer:
+
+```bash
+python -m pip install openseespy-solvers
+```
+
+If OpenSeesPy is not already installed in your environment, use the optional extra:
+
+```bash
+python -m pip install "openseespy-solvers[opensees]"
+```
+
+Optional extras are available for UMFPACK and NVIDIA GPU backends:
+
+```bash
+python -m pip install "openseespy-solvers[umfpack]"
+python -m pip install "openseespy-solvers[cuda12]"
+python -m pip install "openseespy-solvers[cuda13]"
+```
+
+See the [installation guide](https://openseespy-solvers.readthedocs.io/en/stable/installation/) for platform notes, especially for UMFPACK on Windows and CUDA environments.
+
+## Quick Example
+
+```python
+import openseespy.opensees as ops
+from openseespy_solvers.scipy import spsolve
+
+solver = spsolve()
+
+# after defining the OpenSeesPy model:
+ops.system("PythonSparse", solver.to_openseespy())
+ops.numberer("RCM")
+ops.constraints("Plain")
+ops.integrator("LoadControl", 1.0)
+ops.algorithm("Linear")
+ops.analysis("Static")
+ops.analyze(1)
+```
+
+For eigen analysis:
+
+```python
+from openseespy_solvers.scipy import eigsh
+
+eigensolver = eigsh(tol=1e-8)
+eigenvalues = ops.eigen("PythonSparse", 5, eigensolver.to_openseespy())
+```
+
+## Solver Backends
+
+The package currently wraps solver objects from:
+
+- [`scipy.sparse.linalg`](https://docs.scipy.org/doc/scipy/reference/sparse.linalg.html) for CPU sparse linear and eigen solves
+- [`cupyx.scipy.sparse.linalg`](https://docs.cupy.dev/en/stable/reference/scipy_sparse.html) for GPU sparse workflows through CuPy
+- [NVIDIA nvMath](https://developer.nvidia.com/nvmath-python) for GPU direct sparse solves
+
+The documentation includes [recommended first choices](https://openseespy-solvers.readthedocs.io/en/stable/recommended-solvers/) for static/transient linear solves and generalized eigenvalue analyses, plus examples for direct, iterative, and preconditioned workflows.
+
+## Links
+
+- [Documentation](https://openseespy-solvers.readthedocs.io/en/stable/)
+- [PyPI](https://pypi.org/project/openseespy-solvers/)
+- [Source code](https://github.com/gaaraujo/openseespy-solvers)
+- [Issues](https://github.com/gaaraujo/openseespy-solvers/issues)
+
+This is an early release, and I am especially interested in feedback from OpenSeesPy users working with larger sparse systems, eigen analyses, and GPU-enabled environments.

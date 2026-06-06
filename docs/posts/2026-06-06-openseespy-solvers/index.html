@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-06-29">
-<meta name="description" content="Design of a three-story building using mass ply panel walls with buckling-restrained braces.">
+<meta name="author" content="Gustavo A. Araújo R.">
+<meta name="dcterms.date" content="2026-06-06">
+<meta name="description" content="A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy’s PythonSparse system.">
 
-<title>Design of a Three-story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces – Gustavo A. Araújo R.</title>
+<title>Introducing openseespy-solvers – Gustavo A. Araújo R.</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +25,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -82,11 +118,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
 
 
-<meta property="og:title" content="Design of a Three-story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces – Gustavo A. Araújo R.">
-<meta property="og:description" content="Design of a three-story building using mass ply panel walls with buckling-restrained braces.">
+<meta property="og:title" content="Introducing openseespy-solvers – Gustavo A. Araújo R.">
+<meta property="og:description" content="A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy’s PythonSparse system.">
 <meta property="og:site_name" content="Gustavo A. Araújo R.">
-<meta name="twitter:title" content="Design of a Three-story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces – Gustavo A. Araújo R.">
-<meta name="twitter:description" content="Design of a three-story building using mass ply panel walls with buckling-restrained braces.">
+<meta name="twitter:title" content="Introducing openseespy-solvers – Gustavo A. Araújo R.">
+<meta name="twitter:description" content="A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy’s PythonSparse system.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -187,8 +223,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#event" id="toc-event" class="nav-link active" data-scroll-target="#event">Event</a></li>
-  <li><a href="#related-links" id="toc-related-links" class="nav-link" data-scroll-target="#related-links">Related links</a></li>
+  <li><a href="#install" id="toc-install" class="nav-link active" data-scroll-target="#install">Install</a></li>
+  <li><a href="#quick-example" id="toc-quick-example" class="nav-link" data-scroll-target="#quick-example">Quick Example</a></li>
+  <li><a href="#solver-backends" id="toc-solver-backends" class="nav-link" data-scroll-target="#solver-backends">Solver Backends</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
   </ul>
 </nav>
 </nav>
@@ -201,27 +239,35 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Design of a Three-story Building Using a Hybrid of Mass Ply Panel Walls with Buckling-Restrained Braces</h1>
+<h1 class="title">Introducing openseespy-solvers</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">conference</div>
-    <div class="quarto-category">mass-timber</div>
+    <div class="quarto-category">opensees</div>
+    <div class="quarto-category">python</div>
+    <div class="quarto-category">hpc</div>
+    <div class="quarto-category">gpu</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Design of a three-story building using mass ply panel walls with buckling-restrained braces.
+    A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy’s PythonSparse system.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gustavo A. Araújo R. </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 29, 2022</p>
+      <p class="date">June 6, 2026</p>
     </div>
   </div>
   
@@ -233,16 +279,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="event" class="level2">
-<h2 class="anchored" data-anchor-id="event">Event</h2>
-<p><strong>12th National Conference on Earthquake Engineering (12NCEE)</strong><br>
-Salt Lake City, UT · June 29, 2022</p>
+<p>I released <a href="https://pypi.org/project/openseespy-solvers/"><code>openseespy-solvers</code></a>, a Python package that provides SciPy-style sparse linear and eigen solvers for OpenSeesPy’s <a href="https://opensees.github.io/OpenSeesDocumentation/user/manual/analysis/system/PythonSparse.html"><code>PythonSparse</code></a> system command.</p>
+<p>The goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar. OpenSeesPy assembles the stiffness, mass, and right-hand-side arrays; the solver object receives those arrays, calls a numerical backend, and returns the solution to OpenSeesPy.</p>
+<section id="install" class="level2">
+<h2 class="anchored" data-anchor-id="install">Install</h2>
+<p>The base package includes NumPy/SciPy CPU solvers and requires Python 3.12 or newer:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pip install openseespy-solvers</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If OpenSeesPy is not already installed in your environment, use the optional extra:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pip install <span class="st">"openseespy-solvers[opensees]"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Optional extras are available for UMFPACK and NVIDIA GPU backends:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pip install <span class="st">"openseespy-solvers[umfpack]"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pip install <span class="st">"openseespy-solvers[cuda12]"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pip install <span class="st">"openseespy-solvers[cuda13]"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>See the <a href="https://openseespy-solvers.readthedocs.io/en/stable/installation/">installation guide</a> for platform notes, especially for UMFPACK on Windows and CUDA environments.</p>
 </section>
-<section id="related-links" class="level2">
-<h2 class="anchored" data-anchor-id="related-links">Related links</h2>
+<section id="quick-example" class="level2">
+<h2 class="anchored" data-anchor-id="quick-example">Quick Example</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> openseespy.opensees <span class="im">as</span> ops</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> openseespy_solvers.scipy <span class="im">import</span> spsolve</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>solver <span class="op">=</span> spsolve()</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># after defining the OpenSeesPy model:</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>ops.system(<span class="st">"PythonSparse"</span>, solver.to_openseespy())</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>ops.numberer(<span class="st">"RCM"</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>ops.constraints(<span class="st">"Plain"</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>ops.integrator(<span class="st">"LoadControl"</span>, <span class="fl">1.0</span>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>ops.algorithm(<span class="st">"Linear"</span>)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>ops.analysis(<span class="st">"Static"</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>ops.analyze(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>For eigen analysis:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> openseespy_solvers.scipy <span class="im">import</span> eigsh</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>eigensolver <span class="op">=</span> eigsh(tol<span class="op">=</span><span class="fl">1e-8</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>eigenvalues <span class="op">=</span> ops.eigen(<span class="st">"PythonSparse"</span>, <span class="dv">5</span>, eigensolver.to_openseespy())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="solver-backends" class="level2">
+<h2 class="anchored" data-anchor-id="solver-backends">Solver Backends</h2>
+<p>The package currently wraps solver objects from:</p>
 <ul>
-<li><a href="../../research.html">Research</a></li>
+<li><a href="https://docs.scipy.org/doc/scipy/reference/sparse.linalg.html"><code>scipy.sparse.linalg</code></a> for CPU sparse linear and eigen solves</li>
+<li><a href="https://docs.cupy.dev/en/stable/reference/scipy_sparse.html"><code>cupyx.scipy.sparse.linalg</code></a> for GPU sparse workflows through CuPy</li>
+<li><a href="https://developer.nvidia.com/nvmath-python">NVIDIA nvMath</a> for GPU direct sparse solves</li>
 </ul>
+<p>The documentation includes <a href="https://openseespy-solvers.readthedocs.io/en/stable/recommended-solvers/">recommended first choices</a> for static/transient linear solves and generalized eigenvalue analyses, plus examples for direct, iterative, and preconditioned workflows.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="https://openseespy-solvers.readthedocs.io/en/stable/">Documentation</a></li>
+<li><a href="https://pypi.org/project/openseespy-solvers/">PyPI</a></li>
+<li><a href="https://github.com/gaaraujo/openseespy-solvers">Source code</a></li>
+<li><a href="https://github.com/gaaraujo/openseespy-solvers/issues">Issues</a></li>
+</ul>
+<p>This is an early release, and I am especially interested in feedback from OpenSeesPy users working with larger sparse systems, eigen analyses, and GPU-enabled environments.</p>
 
 
 </section>

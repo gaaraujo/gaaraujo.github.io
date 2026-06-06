@@ -1,5 +1,10 @@
 [
   {
+    "sort": "2026-06-06",
+    "label": "June 6, 2026",
+    "text": "Released [openseespy-solvers](https://pypi.org/project/openseespy-solvers/), a Python package with SciPy-style sparse linear and eigen solvers for OpenSeesPy's `PythonSparse` command ([post](/posts/2026-06-06-openseespy-solvers/index.qmd), [docs](https://openseespy-solvers.readthedocs.io/en/stable/), [source](https://github.com/gaaraujo/openseespy-solvers))."
+  },
+  {
     "sort": "2026-05-31",
     "label": "May 31, 2026",
     "text": "Website launched — research notes, OpenSeesPy examples, and project updates will be posted in [Posts](/posts/index.qmd)."
