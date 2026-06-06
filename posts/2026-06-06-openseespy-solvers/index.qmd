@@ -10,6 +10,12 @@ I released [`openseespy-solvers`](https://pypi.org/project/openseespy-solvers/),
 
 The goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar. OpenSeesPy assembles the stiffness, mass, and right-hand-side arrays; the solver object receives those arrays, calls a numerical backend, and returns the solution to OpenSeesPy.
 
+::: {.content-photo}
+![](../../assets/images/posts/openseespy-solvers-python-solver.png){fig-alt="Schematic of OpenSees assembling residual and tangent matrices, passing them to a Python solver object, copying data to a GPU backend, solving for displacement increments, and returning the result to OpenSees." width="820"}
+
+Conceptual workflow for connecting OpenSeesPy's `PythonSparse` interface to external Python solver backends, including GPU-enabled sparse solves.
+:::
+
 ## Install
 
 The base package includes NumPy/SciPy CPU solvers and requires Python 3.12 or newer:

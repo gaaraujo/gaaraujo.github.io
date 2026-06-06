@@ -120,10 +120,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Introducing openseespy-solvers – Gustavo A. Araújo R.">
 <meta property="og:description" content="A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy’s PythonSparse system.">
+<meta property="og:image" content="https://gaaraujo.github.io/assets/images/posts/openseespy-solvers-python-solver.png">
 <meta property="og:site_name" content="Gustavo A. Araújo R.">
+<meta property="og:image:alt" content="Schematic of OpenSees assembling residual and tangent matrices, passing them to a Python solver object, copying data to a GPU backend, solving for displacement increments, and returning the result to OpenSees.">
+<meta property="og:image:height" content="1993">
+<meta property="og:image:width" content="3623">
 <meta name="twitter:title" content="Introducing openseespy-solvers – Gustavo A. Araújo R.">
 <meta name="twitter:description" content="A small Python package that connects SciPy-style sparse linear and eigen solvers to OpenSeesPy’s PythonSparse system.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gaaraujo.github.io/assets/images/posts/openseespy-solvers-python-solver.png">
+<meta name="twitter:image:alt" content="Schematic of OpenSees assembling residual and tangent matrices, passing them to a Python solver object, copying data to a GPU backend, solving for displacement increments, and returning the result to OpenSees.">
+<meta name="twitter:image-height" content="1993">
+<meta name="twitter:image-width" content="3623">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="floating nav-fixed quarto-light">
@@ -281,6 +289,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>I released <a href="https://pypi.org/project/openseespy-solvers/"><code>openseespy-solvers</code></a>, a Python package that provides SciPy-style sparse linear and eigen solvers for OpenSeesPy’s <a href="https://opensees.github.io/OpenSeesDocumentation/user/manual/analysis/system/PythonSparse.html"><code>PythonSparse</code></a> system command.</p>
 <p>The goal is simple: make it easier to experiment with solver backends while keeping the OpenSeesPy modeling workflow familiar. OpenSeesPy assembles the stiffness, mass, and right-hand-side arrays; the solver object receives those arrays, calls a numerical backend, and returns the solution to OpenSeesPy.</p>
+<div class="content-photo">
+<p><img src="../../assets/images/posts/openseespy-solvers-python-solver.png" class="img-fluid" alt="Schematic of OpenSees assembling residual and tangent matrices, passing them to a Python solver object, copying data to a GPU backend, solving for displacement increments, and returning the result to OpenSees." width="820"></p>
+<p>Conceptual workflow for connecting OpenSeesPy’s <code>PythonSparse</code> interface to external Python solver backends, including GPU-enabled sparse solves.</p>
+</div>
 <section id="install" class="level2">
 <h2 class="anchored" data-anchor-id="install">Install</h2>
 <p>The base package includes NumPy/SciPy CPU solvers and requires Python 3.12 or newer:</p>
