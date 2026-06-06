@@ -178,6 +178,10 @@ font-style: inherit;">5</span>, eigensolver.to_openseespy())</span></code></pre>
 <li><strong>OpenSeesPy examples</strong> and GPU/CUDA workflow notes</li>
 <li><strong>Project summaries</strong> and links to code on <a href="https://github.com/gaaraujo">GitHub</a></li>
 </ul>
+<div class="content-photo">
+<p><img src="https://gaaraujo.github.io/assets/images/about/osu-three-story-lab-2022.jpg" class="img-fluid" alt="Gustavo A. Araújo R. leaning against the three-story mass timber pivoting-wall test specimen at the Oregon State University structural laboratory." width="640"></p>
+<p>Three-story mass timber pivoting-wall test specimen, Oregon State University structural laboratory.</p>
+</div>
 <section id="what-to-expect" class="level2">
 <h2 class="anchored" data-anchor-id="what-to-expect">What to expect</h2>
 <p>Short posts on reproducible analysis workflows, lessons learned from OpenSees model development, and notes from conferences such as the NHERI SimCenter Computational Symposium.</p>

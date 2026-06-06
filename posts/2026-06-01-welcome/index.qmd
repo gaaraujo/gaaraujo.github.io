@@ -12,6 +12,12 @@ Welcome! This site replaces my earlier personal page and hosts:
 - **OpenSeesPy examples** and GPU/CUDA workflow notes
 - **Project summaries** and links to code on [GitHub](https://github.com/gaaraujo)
 
+::: {.content-photo}
+![](../../assets/images/about/osu-three-story-lab-2022.jpg){fig-alt="Gustavo A. Araújo R. leaning against the three-story mass timber pivoting-wall test specimen at the Oregon State University structural laboratory." width="640"}
+
+Three-story mass timber pivoting-wall test specimen, Oregon State University structural laboratory.
+:::
+
 ## What to expect
 
 Short posts on reproducible analysis workflows, lessons learned from OpenSees model development, and notes from conferences such as the NHERI SimCenter Computational Symposium.
