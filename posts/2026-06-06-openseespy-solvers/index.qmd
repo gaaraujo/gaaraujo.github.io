@@ -77,7 +77,7 @@ The package currently wraps solver objects from:
 - [`cupyx.scipy.sparse.linalg`](https://docs.cupy.dev/en/stable/reference/scipy_sparse.html) for GPU sparse workflows through CuPy
 - [NVIDIA nvMath](https://developer.nvidia.com/nvmath-python) for GPU direct sparse solves
 
-The documentation includes [recommended first choices](https://openseespy-solvers.readthedocs.io/en/stable/recommended-solvers/) for static/transient linear solves and generalized eigenvalue analyses, plus examples for direct, iterative, and preconditioned workflows.
+For more info, refer to the documentation and other links below.
 
 ## Links
 

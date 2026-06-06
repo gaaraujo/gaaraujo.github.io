@@ -347,7 +347,7 @@
     "href": "posts/2026-06-06-openseespy-solvers/index.html#solver-backends",
     "title": "Introducing openseespy-solvers",
     "section": "Solver Backends",
-    "text": "Solver Backends\nThe package currently wraps solver objects from:\n\nscipy.sparse.linalg for CPU sparse linear and eigen solves\ncupyx.scipy.sparse.linalg for GPU sparse workflows through CuPy\nNVIDIA nvMath for GPU direct sparse solves\n\nThe documentation includes recommended first choices for static/transient linear solves and generalized eigenvalue analyses, plus examples for direct, iterative, and preconditioned workflows."
+    "text": "Solver Backends\nThe package currently wraps solver objects from:\n\nscipy.sparse.linalg for CPU sparse linear and eigen solves\ncupyx.scipy.sparse.linalg for GPU sparse workflows through CuPy\nNVIDIA nvMath for GPU direct sparse solves\n\nFor more info, refer to the documentation and other links below."
   },
   {
     "objectID": "posts/2026-06-06-openseespy-solvers/index.html#links",

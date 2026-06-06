@@ -147,7 +147,7 @@ font-style: inherit;">5</span>, eigensolver.to_openseespy())</span></code></pre>
 <li><a href="https://docs.cupy.dev/en/stable/reference/scipy_sparse.html"><code>cupyx.scipy.sparse.linalg</code></a> for GPU sparse workflows through CuPy</li>
 <li><a href="https://developer.nvidia.com/nvmath-python">NVIDIA nvMath</a> for GPU direct sparse solves</li>
 </ul>
-<p>The documentation includes <a href="https://openseespy-solvers.readthedocs.io/en/stable/recommended-solvers/">recommended first choices</a> for static/transient linear solves and generalized eigenvalue analyses, plus examples for direct, iterative, and preconditioned workflows.</p>
+<p>For more info, refer to the documentation and other links below.</p>
 </section>
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
