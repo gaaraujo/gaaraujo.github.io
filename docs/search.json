@@ -165,14 +165,7 @@
     "href": "posts/2026-06-01-welcome/index.html",
     "title": "Welcome to the Site",
     "section": "",
-    "text": "Welcome! This site replaces my earlier personal page and hosts:"
-  },
-  {
-    "objectID": "posts/2026-06-01-welcome/index.html#what-to-expect",
-    "href": "posts/2026-06-01-welcome/index.html#what-to-expect",
-    "title": "Welcome to the Site",
-    "section": "What to expect",
-    "text": "What to expect\nShort posts on reproducible analysis workflows, lessons learned from OpenSees model development, and notes from conferences such as the NHERI SimCenter Computational Symposium."
+    "text": "Welcome! This site replaces my earlier personal page.\nHere, you can expect research updates from the projects I am currently participating in, both in numerical and experimental research, as well as tips and examples on OpenSees and nonlinear finite-element analysis in general.\nI leave you below with one of my favorite pictures from a test I did in Oregon. If you want to learn more about that project, go here: Three-Story Mass Timber Building with Pivoting Walls."
   },
   {
     "objectID": "posts/2026-06-01-welcome/index.html#stay-connected",

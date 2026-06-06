@@ -6,21 +6,17 @@ description: "Launching a Quarto site for research notes on nonlinear structural
 author: Gustavo A. Araújo R.
 ---
 
-Welcome! This site replaces my earlier personal page and hosts:
+Welcome! This site replaces my earlier personal page.
 
-- **Research updates** on nonlinear FE analysis, earthquake engineering, and mass timber systems
-- **OpenSeesPy examples** and GPU/CUDA workflow notes
-- **Project summaries** and links to code on [GitHub](https://github.com/gaaraujo)
+Here, you can expect research updates from the projects I am currently participating in, both in numerical and experimental research, as well as tips and examples on OpenSees and nonlinear finite-element analysis in general.
+
+I leave you below with one of my favorite pictures from a test I did in Oregon. If you want to learn more about that project, go here: [Three-Story Mass Timber Building with Pivoting Walls](/projects/osu-three-story-pivoting-walls/index.qmd).
 
 ::: {.content-photo}
 ![](../../assets/images/about/osu-three-story-lab-2022.jpg){fig-alt="Gustavo A. Araújo R. leaning against the three-story mass timber pivoting-wall test specimen at the Oregon State University structural laboratory." width="640"}
 
 Three-story mass timber pivoting-wall test specimen, Oregon State University structural laboratory.
 :::
-
-## What to expect
-
-Short posts on reproducible analysis workflows, lessons learned from OpenSees model development, and notes from conferences such as the NHERI SimCenter Computational Symposium.
 
 ## Stay connected
 
