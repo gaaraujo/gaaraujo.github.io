@@ -347,7 +347,7 @@
     "href": "posts/2026-06-06-openseespy-solvers/index.html#quick-example",
     "title": "Introducing openseespy-solvers",
     "section": "Quick Example",
-    "text": "Quick Example\nimport openseespy.opensees as ops\nfrom openseespy_solvers.scipy import spsolve\n\nsolver = spsolve()\n\n# after defining the OpenSeesPy model:\nops.system(\"PythonSparse\", solver.to_openseespy())\nops.numberer(\"RCM\")\nops.constraints(\"Plain\")\nops.integrator(\"LoadControl\", 1.0)\nops.algorithm(\"Linear\")\nops.analysis(\"Static\")\nops.analyze(1)\nFor eigen analysis:\nfrom openseespy_solvers.scipy import eigsh\n\neigensolver = eigsh(tol=1e-8)\neigenvalues = ops.eigen(\"PythonSparse\", 5, eigensolver.to_openseespy())"
+    "text": "Quick Example\nimport openseespy.opensees as ops\nfrom openseespy_solvers.scipy import spsolve\n\nsolver = spsolve()\n\n# after defining the OpenSeesPy model:\nops.system(\"PythonSparse\", solver.to_openseespy())\nops.numberer(\"Plain\")\nops.constraints(\"Plain\")\nops.integrator(\"LoadControl\", 1.0)\nops.algorithm(\"Newton\")\nops.analysis(\"Static\")\nops.analyze(1)\nFor eigen analysis:\nfrom openseespy_solvers.scipy import eigsh\n\neigensolver = eigsh(tol=1e-8)\neigenvalues = ops.eigen(\"PythonSparse\", 5, eigensolver.to_openseespy())"
   },
   {
     "objectID": "posts/2026-06-06-openseespy-solvers/index.html#solver-backends",

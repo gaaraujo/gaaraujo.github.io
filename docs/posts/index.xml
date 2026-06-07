@@ -99,7 +99,7 @@ background-color: null;
 font-style: inherit;">"PythonSparse"</span>, solver.to_openseespy())</span>
 <span id="cb4-8">ops.numberer(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"RCM"</span>)</span>
+font-style: inherit;">"Plain"</span>)</span>
 <span id="cb4-9">ops.constraints(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Plain"</span>)</span>
@@ -110,7 +110,7 @@ background-color: null;
 font-style: inherit;">1.0</span>)</span>
 <span id="cb4-11">ops.algorithm(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Linear"</span>)</span>
+font-style: inherit;">"Newton"</span>)</span>
 <span id="cb4-12">ops.analysis(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Static"</span>)</span>
