@@ -16,7 +16,7 @@ The goal is simple: make it easier to experiment with solver backends while keep
 
 OpenSeesPy still owns the finite-element model, the implicit integration loop, and the element state determination. During each analysis step, OpenSeesPy assembles the residual vector and tangent matrix, then passes those arrays through `PythonSparse` to a Python solver object.
 
-That solver object can call a CPU backend such as SciPy, or copy the assembled arrays to a GPU backend such as CuPy or NVIDIA nvMath. Once the backend solves for the displacement increment, the solver writes the result back to OpenSeesPy so the analysis can update the trial state, check convergence, and continue.
+That solver object can call a CPU backend such as SciPy, or copy the assembled arrays to a GPU backend such as CuPy or `nvmath.sparse`. Once the backend solves for the displacement increment, the solver writes the result back to OpenSeesPy so the analysis can update the trial state, check convergence, and continue.
 
 ## Install
 
@@ -75,7 +75,7 @@ The package currently wraps solver objects from:
 
 - [`scipy.sparse.linalg`](https://docs.scipy.org/doc/scipy/reference/sparse.linalg.html) for CPU sparse linear and eigen solves
 - [`cupyx.scipy.sparse.linalg`](https://docs.cupy.dev/en/stable/reference/scipy_sparse.html) for GPU sparse workflows through CuPy
-- [NVIDIA nvMath](https://developer.nvidia.com/nvmath-python) for GPU direct sparse solves
+- [`nvmath.sparse`](https://developer.nvidia.com/nvmath-python) for GPU direct sparse solves
 
 For more info, refer to the documentation and other links below.
 

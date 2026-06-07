@@ -32,7 +32,7 @@
 </figure>
 </div>
 <p>OpenSeesPy still owns the finite-element model, the implicit integration loop, and the element state determination. During each analysis step, OpenSeesPy assembles the residual vector and tangent matrix, then passes those arrays through <code>PythonSparse</code> to a Python solver object.</p>
-<p>That solver object can call a CPU backend such as SciPy, or copy the assembled arrays to a GPU backend such as CuPy or NVIDIA nvMath. Once the backend solves for the displacement increment, the solver writes the result back to OpenSeesPy so the analysis can update the trial state, check convergence, and continue.</p>
+<p>That solver object can call a CPU backend such as SciPy, or copy the assembled arrays to a GPU backend such as CuPy or <code>nvmath.sparse</code>. Once the backend solves for the displacement increment, the solver writes the result back to OpenSeesPy so the analysis can update the trial state, check convergence, and continue.</p>
 </section>
 <section id="install" class="level2">
 <h2 class="anchored" data-anchor-id="install">Install</h2>
@@ -145,7 +145,7 @@ font-style: inherit;">5</span>, eigensolver.to_openseespy())</span></code></pre>
 <ul>
 <li><a href="https://docs.scipy.org/doc/scipy/reference/sparse.linalg.html"><code>scipy.sparse.linalg</code></a> for CPU sparse linear and eigen solves</li>
 <li><a href="https://docs.cupy.dev/en/stable/reference/scipy_sparse.html"><code>cupyx.scipy.sparse.linalg</code></a> for GPU sparse workflows through CuPy</li>
-<li><a href="https://developer.nvidia.com/nvmath-python">NVIDIA nvMath</a> for GPU direct sparse solves</li>
+<li><a href="https://developer.nvidia.com/nvmath-python"><code>nvmath.sparse</code></a> for GPU direct sparse solves</li>
 </ul>
 <p>For more info, refer to the documentation and other links below.</p>
 </section>
