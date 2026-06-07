@@ -149,4 +149,16 @@ Since 2022 I have been an active member of the [Earthquake Engineering Research 
 </div>
 ```
 
+## Site notes
+
+This website is built with [Quarto](https://quarto.org/) and hosted with [GitHub Pages](https://pages.github.com/).
+
+Some posts on this website are drafted or edited with assistance from AI tools. I review and revise the material before publication, but any errors, omissions, or opinions are my own.
+
+This is a personal website. The views expressed here are my own and do not necessarily represent Stanford University, Oregon State University, Universidad del Norte, PEER, NHERI, EERI, OpenSees, OpenSeesPy, or any other institution, project, or organization with which I am or have been affiliated.
+
+Unless explicitly stated otherwise, references to OpenSees, OpenSeesPy, or related software are made in the context of my own research, teaching, examples, and personal technical notes. This site is not an official OpenSees or OpenSeesPy website.
+
+If you use or adapt text, figures, code, examples, or other material from this website, please provide proper attribution to me and include a link back to the original page.
+
 Email, affiliation, and professional profiles are on the [Contact](contact.qmd) page.

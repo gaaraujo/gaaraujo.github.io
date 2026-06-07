@@ -284,7 +284,14 @@
     "href": "about.html#media-profiles",
     "title": "About",
     "section": "Media & profiles",
-    "text": "Media & profiles\n\n  \n    \n      \n    \n    \n      Universidad del Norte video profile\n      Spanish-language report about moving to Oregon State University to continue graduate studies.\n    \n  \n  \n    \n      \n    \n    \n      Universidad del Norte alumni profile\n      Spanish-language article about being admitted to Stanford to complete doctoral studies.\n    \n  \n\nEmail, affiliation, and professional profiles are on the Contact page."
+    "text": "Media & profiles\n\n  \n    \n      \n    \n    \n      Universidad del Norte video profile\n      Spanish-language report about moving to Oregon State University to continue graduate studies.\n    \n  \n  \n    \n      \n    \n    \n      Universidad del Norte alumni profile\n      Spanish-language article about being admitted to Stanford to complete doctoral studies."
+  },
+  {
+    "objectID": "about.html#site-notes",
+    "href": "about.html#site-notes",
+    "title": "About",
+    "section": "Site notes",
+    "text": "Site notes\nThis website is built with Quarto and hosted with GitHub Pages.\nSome posts on this website are drafted or edited with assistance from AI tools. I review and revise the material before publication, but any errors, omissions, or opinions are my own.\nThis is a personal website. The views expressed here are my own and do not necessarily represent Stanford University, Oregon State University, Universidad del Norte, PEER, NHERI, EERI, OpenSees, OpenSeesPy, or any other institution, project, or organization with which I am or have been affiliated.\nUnless explicitly stated otherwise, references to OpenSees, OpenSeesPy, or related software are made in the context of my own research, teaching, examples, and personal technical notes. This site is not an official OpenSees or OpenSeesPy website.\nIf you use or adapt text, figures, code, examples, or other material from this website, please provide proper attribution to me and include a link back to the original page.\nEmail, affiliation, and professional profiles are on the Contact page."
   },
   {
     "objectID": "cv.html",
