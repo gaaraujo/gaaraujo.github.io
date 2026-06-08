@@ -352,6 +352,11 @@ $content-media-max: 34rem;
   }
 }
 
+.profile-intro > .profile-photo {
+  width: 448px;
+  max-width: 60%;
+}
+
 @media (max-width: 575px) {
   .profile-photo,
   .about-photo {

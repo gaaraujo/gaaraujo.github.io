@@ -9,7 +9,7 @@ anchor-sections: false
 ::: {.profile-intro}
 
 ::: {.profile-photo}
-![](assets/images/profile.jpg){.profile-photo width="280" fig-alt="Gustavo A. Araújo R."}
+![](assets/images/profile.jpg){.profile-photo width="448" fig-alt="Gustavo A. Araújo R."}
 :::
 
 **Gustavo A. Araújo R.** is a PhD candidate in Civil and Environmental Engineering at [Stanford University](https://profiles.stanford.edu/gustavo-a-araujo) (expected December 2026), where he is a graduate researcher at the [John A. Blume Earthquake Engineering Center](https://blume.stanford.edu/). He combines **experimental testing**, **nonlinear finite-element modeling**, and **GPU-accelerated simulation** to study **reinforced concrete** and **low-damage mass timber–steel** structural systems.

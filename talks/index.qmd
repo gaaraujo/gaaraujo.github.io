@@ -11,4 +11,4 @@ listing:
 page-layout: full
 ---
 
-Conference presentations, seminars, and invited talks. This list matches the Presentations section of my [CV](/cv.qmd).
+Conference presentations, seminars, and invited talks. This list matches the Presentations section of my [CV](../assets/cv/cv.pdf).
