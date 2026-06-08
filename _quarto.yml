@@ -42,8 +42,6 @@ website:
         text: Posts
       - href: publications.qmd
         text: Publications
-      - href: talks/index.qmd
-        text: Talks
       - href: assets/cv/cv.pdf
         text: CV
       - href: contact.qmd
