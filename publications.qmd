@@ -10,9 +10,9 @@ A selection of peer-reviewed journal articles and conference papers. For citatio
 
 Kontra, S., A. R. Barbosa, A. Sinha, S. Pryor, R. B. Zimmerman, B. G. Simpson, J. W. van de Lindt, S. Pei, **G. A. Araújo R.**, M. McBain, L. Pieroni, P. Mishra, P. A. Uarac, T. Field, and F. Freddi (2026). [Mass timber wall splice connection using glued-in rods: Design methodology, implementation, and shake-table testing in a six-story building.](https://doi.org/10.1016/j.engstruct.2026.122859) *Engineering Structures*, 361, 122859.
 
-### 2025
+McBain, M., L. Pieroni, **G. A. Araújo R.**, S. Kontra, P. Mishra, A. R. Barbosa, L. Gioiella, J. W. van de Lindt, A. Sinha, N. Brown, F. Freddi, and B. G. Simpson (2026). [Design and Shake-Table Testing of a Full-Scale, Six-Story Mass Timber Building with Post-Tensioned Rocking Walls and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-15854) *Journal of Structural Engineering*, 152(9), 04026126.
 
-McBain, M., L. Pieroni, **G. A. Araújo R.**, S. Kontra, P. Mishra, A. R. Barbosa, L. Gioiella, J. W. van de Lindt, A. Sinha, N. Brown, F. Freddi, and B. G. Simpson (in press). [Design and Shake-Table Testing of a Full-Scale, Six-Story Mass Timber Building with Post-Tensioned Rocking Walls and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-15854) *Journal of Structural Engineering*.
+### 2025
 
 **Araújo R., G. A.**, B. G. Simpson, A. R. Barbosa, L. Pieroni, T. X. Ho, G. F. Orozco O., B. T. Miyamoto, and A. Sinha (2025). [Experimental and Numerical Simulation of a Three-Story Mass Timber Building with a Pivoting Wall and Buckling-Restrained Boundary Elements.](https://doi.org/10.1061/JSENDH.STENG-13781) *Journal of Structural Engineering*, 151(7), 04025089.
 
