@@ -1,7 +1,0 @@
----
-title: "CV"
-toc: false
-anchor-sections: false
----
-
-**[Download CV (PDF)](assets/cv/cv.pdf)**
